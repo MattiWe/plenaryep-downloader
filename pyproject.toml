@@ -1,0 +1,38 @@
+[project]
+name = "plenaryep-downloader"
+version = "0.1.0"
+description = "Download and construct or update an existing PlenaryEP corpus."
+readme = "README.md"
+authors = [
+    { name = "Anonymous", email = "" }
+]
+license = "Apache-2.0"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.4.2",
+    "cssselect>=1.5.0",
+    "jinja2>=3.1.6",
+    "lxml>=6.1.1",
+    "openai>=2.53.0",
+    "openpyxl>=3.1.5",
+    "pyreadr>=0.5.6",
+    "resiliparse>=1.0.9",
+    "scrapy>=2.17.0",
+    "sentence-transformers>=5.7.0",
+    "torch==2.7.1+cu128",
+    "translators>=5.7.1",
+]
+
+[project.scripts]
+plenaryep-downloader = "plenaryep_downloader:main"
+
+[tool.uv.sources]
+torch = { index = "pytorch" }
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu128"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"

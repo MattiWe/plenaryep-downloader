@@ -1,0 +1,854 @@
+{
+      "macroeconomics-general": [
+            "macroeconomics",
+            "general"
+      ],
+      "macroeconomics-interest-rates": [
+            "macroeconomics",
+            "interest-rates"
+      ],
+      "macroeconomics-unemployment-rate": [
+            "macroeconomics",
+            "unemployment-rate"
+      ],
+      "macroeconomics-monetary-policy": [
+            "macroeconomics",
+            "monetary-policy"
+      ],
+      "macroeconomics-national-budget": [
+            "macroeconomics",
+            "national-budget"
+      ],
+      "macroeconomics-tax-code": [
+            "macroeconomics",
+            "tax-code"
+      ],
+      "macroeconomics-industrial-policy": [
+            "macroeconomics",
+            "industrial-policy"
+      ],
+      "macroeconomics-price-control": [
+            "macroeconomics",
+            "price-control"
+      ],
+      "macroeconomics-other": [
+            "macroeconomics",
+            "other"
+      ],
+      "civil-rights-general": [
+            "civil-rights",
+            "general"
+      ],
+      "civil-rights-minority-discrimination": [
+            "civil-rights",
+            "minority-discrimination"
+      ],
+      "civil-rights-gender-discrimination": [
+            "civil-rights",
+            "gender-discrimination"
+      ],
+      "civil-rights-age-discrimination": [
+            "civil-rights",
+            "age-discrimination"
+      ],
+      "civil-rights-handicap-discrimination": [
+            "civil-rights",
+            "handicap-discrimination"
+      ],
+      "civil-rights-voting-rights": [
+            "civil-rights",
+            "voting-rights"
+      ],
+      "civil-rights-freedom-of-speech": [
+            "civil-rights",
+            "freedom-of-speech"
+      ],
+      "civil-rights-right-to-privacy": [
+            "civil-rights",
+            "right-to-privacy"
+      ],
+      "civil-rights-anti-government": [
+            "civil-rights",
+            "anti-government"
+      ],
+      "civil-rights-other": [
+            "civil-rights",
+            "other"
+      ],
+      "health-general": [
+            "health",
+            "general"
+      ],
+      "health-health-care-reform": [
+            "health",
+            "health-care-reform"
+      ],
+      "health-insurance": [
+            "health",
+            "insurance"
+      ],
+      "health-drug-industry": [
+            "health",
+            "drug-industry"
+      ],
+      "health-medical-facilities": [
+            "health",
+            "medical-facilities"
+      ],
+      "health-insurance-providers": [
+            "health",
+            "insurance-providers"
+      ],
+      "health-medical-liability": [
+            "health",
+            "medical-liability"
+      ],
+      "health-manpower": [
+            "health",
+            "manpower"
+      ],
+      "health-disease-prevention": [
+            "health",
+            "disease-prevention"
+      ],
+      "health-infants-and-children": [
+            "health",
+            "infants-and-children"
+      ],
+      "health-mental-health": [
+            "health",
+            "mental-health"
+      ],
+      "health-long-term-care": [
+            "health",
+            "long-term-care"
+      ],
+      "health-drug-coverage-and-cost": [
+            "health",
+            "drug-coverage-and-cost"
+      ],
+      "health-tobacco-abuse": [
+            "health",
+            "tobacco-abuse"
+      ],
+      "health-drug-and-alcohol-abuse": [
+            "health",
+            "drug-and-alcohol-abuse"
+      ],
+      "health-research-and-development": [
+            "health",
+            "research-and-development"
+      ],
+      "health-other": [
+            "health",
+            "other"
+      ],
+      "agriculture-general": [
+            "agriculture",
+            "general"
+      ],
+      "agriculture-trade": [
+            "agriculture",
+            "trade"
+      ],
+      "agriculture-subsidies-to-farmers": [
+            "agriculture",
+            "subsidies-to-farmers"
+      ],
+      "agriculture-food-inspection-and-safety": [
+            "agriculture",
+            "food-inspection-and-safety"
+      ],
+      "agriculture-food-marketing-and-promotion": [
+            "agriculture",
+            "food-marketing-and-promotion"
+      ],
+      "agriculture-animal-and-crop-disease": [
+            "agriculture",
+            "animal-and-crop-disease"
+      ],
+      "agriculture-fisheries-and-fishing": [
+            "agriculture",
+            "fisheries-and-fishing"
+      ],
+      "agriculture-research-and-development": [
+            "agriculture",
+            "research-and-development"
+      ],
+      "agriculture-other": [
+            "agriculture",
+            "other"
+      ],
+      "labor-general": [
+            "labor",
+            "general"
+      ],
+      "labor-worker-safety": [
+            "labor",
+            "worker-safety"
+      ],
+      "labor-employment-training": [
+            "labor",
+            "employment-training"
+      ],
+      "labor-employee-benefits": [
+            "labor",
+            "employee-benefits"
+      ],
+      "labor-labor-unions": [
+            "labor",
+            "labor-unions"
+      ],
+      "labor-fair-labor-standards": [
+            "labor",
+            "fair-labor-standards"
+      ],
+      "labor-youth-employment": [
+            "labor",
+            "youth-employment"
+      ],
+      "labor-migrant-and-seasonal": [
+            "labor",
+            "migrant-and-seasonal"
+      ],
+      "labor-other": [
+            "labor",
+            "other"
+      ],
+      "education-general": [
+            "education",
+            "general"
+      ],
+      "education-higher": [
+            "education",
+            "higher"
+      ],
+      "education-elementary-and-secondary": [
+            "education",
+            "elementary-and-secondary"
+      ],
+      "education-underprivileged": [
+            "education",
+            "underprivileged"
+      ],
+      "education-vocational": [
+            "education",
+            "vocational"
+      ],
+      "education-special": [
+            "education",
+            "special"
+      ],
+      "education-excellence": [
+            "education",
+            "excellence"
+      ],
+      "education-research-and-development": [
+            "education",
+            "research-and-development"
+      ],
+      "education-other": [
+            "education",
+            "other"
+      ],
+      "environment-general": [
+            "environment",
+            "general"
+      ],
+      "environment-drinking-water": [
+            "environment",
+            "drinking-water"
+      ],
+      "environment-waste-disposal": [
+            "environment",
+            "waste-disposal"
+      ],
+      "environment-hazardous-waste": [
+            "environment",
+            "hazardous-waste"
+      ],
+      "environment-air-pollution": [
+            "environment",
+            "air-pollution"
+      ],
+      "environment-recycling": [
+            "environment",
+            "recycling"
+      ],
+      "environment-indoor-hazards": [
+            "environment",
+            "indoor-hazards"
+      ],
+      "environment-species-and-forest": [
+            "environment",
+            "species-and-forest"
+      ],
+      "environment-land-and-water-conservation": [
+            "environment",
+            "land-and-water-conservation"
+      ],
+      "environment-research-and-development": [
+            "environment",
+            "research-and-development"
+      ],
+      "environment-other": [
+            "environment",
+            "other"
+      ],
+      "energy-general": [
+            "energy",
+            "general"
+      ],
+      "energy-nuclear": [
+            "energy",
+            "nuclear"
+      ],
+      "energy-electricity": [
+            "energy",
+            "electricity"
+      ],
+      "energy-natural-gas-and-oil": [
+            "energy",
+            "natural-gas-and-oil"
+      ],
+      "energy-coal": [
+            "energy",
+            "coal"
+      ],
+      "energy-alternative-and-renewable": [
+            "energy",
+            "alternative-and-renewable"
+      ],
+      "energy-conservation": [
+            "energy",
+            "conservation"
+      ],
+      "energy-research-and-development": [
+            "energy",
+            "research-and-development"
+      ],
+      "energy-other": [
+            "energy",
+            "other"
+      ],
+      "immigration-immigration": [
+            "immigration",
+            "immigration"
+      ],
+      "transportation-general": [
+            "transportation",
+            "general"
+      ],
+      "transportation-mass": [
+            "transportation",
+            "mass"
+      ],
+      "transportation-highways": [
+            "transportation",
+            "highways"
+      ],
+      "transportation-air-travel": [
+            "transportation",
+            "air-travel"
+      ],
+      "transportation-railroad-travel": [
+            "transportation",
+            "railroad-travel"
+      ],
+      "transportation-maritime": [
+            "transportation",
+            "maritime"
+      ],
+      "transportation-infrastructure": [
+            "transportation",
+            "infrastructure"
+      ],
+      "transportation-research-and-development": [
+            "transportation",
+            "research-and-development"
+      ],
+      "transportation-other": [
+            "transportation",
+            "other"
+      ],
+      "law-and-crime-general": [
+            "law-and-crime",
+            "general"
+      ],
+      "law-and-crime-agencies": [
+            "law-and-crime",
+            "agencies"
+      ],
+      "law-and-crime-white-collar-crime": [
+            "law-and-crime",
+            "white-collar-crime"
+      ],
+      "law-and-crime-illegal-drugs": [
+            "law-and-crime",
+            "illegal-drugs"
+      ],
+      "law-and-crime-court-administration": [
+            "law-and-crime",
+            "court-administration"
+      ],
+      "law-and-crime-prisons": [
+            "law-and-crime",
+            "prisons"
+      ],
+      "law-and-crime-juvenile-crime": [
+            "law-and-crime",
+            "juvenile-crime"
+      ],
+      "law-and-crime-child-abuse": [
+            "law-and-crime",
+            "child-abuse"
+      ],
+      "law-and-crime-family-issues": [
+            "law-and-crime",
+            "family-issues"
+      ],
+      "law-and-crime-criminal-and-civil-code": [
+            "law-and-crime",
+            "criminal-and-civil-code"
+      ],
+      "law-and-crime-crime-control": [
+            "law-and-crime",
+            "crime-control"
+      ],
+      "law-and-crime-police": [
+            "law-and-crime",
+            "police"
+      ],
+      "law-and-crime-other": [
+            "law-and-crime",
+            "other"
+      ],
+      "social-welfare-general": [
+            "social-welfare",
+            "general"
+      ],
+      "social-welfare-low-income-assistance": [
+            "social-welfare",
+            "low-income-assistance"
+      ],
+      "social-welfare-elderly-assistance": [
+            "social-welfare",
+            "elderly-assistance"
+      ],
+      "social-welfare-disabled-assistance": [
+            "social-welfare",
+            "disabled-assistance"
+      ],
+      "social-welfare-volunteer-associations": [
+            "social-welfare",
+            "volunteer-associations"
+      ],
+      "social-welfare-child-care": [
+            "social-welfare",
+            "child-care"
+      ],
+      "social-welfare-other": [
+            "social-welfare",
+            "other"
+      ],
+      "housing-general": [
+            "housing",
+            "general"
+      ],
+      "housing-community-development": [
+            "housing",
+            "community-development"
+      ],
+      "housing-urban-development": [
+            "housing",
+            "urban-development"
+      ],
+      "housing-rural-housing": [
+            "housing",
+            "rural-housing"
+      ],
+      "housing-rural-development": [
+            "housing",
+            "rural-development"
+      ],
+      "housing-low-income-assistance": [
+            "housing",
+            "low-income-assistance"
+      ],
+      "housing-veterans": [
+            "housing",
+            "veterans"
+      ],
+      "housing-elderly": [
+            "housing",
+            "elderly"
+      ],
+      "housing-homeless": [
+            "housing",
+            "homeless"
+      ],
+      "housing-research-and-development": [
+            "housing",
+            "research-and-development"
+      ],
+      "housing-other": [
+            "housing",
+            "other"
+      ],
+      "domestic-commerce-general": [
+            "domestic-commerce",
+            "general"
+      ],
+      "domestic-commerce-banking": [
+            "domestic-commerce",
+            "banking"
+      ],
+      "domestic-commerce-securities-and-commodities": [
+            "domestic-commerce",
+            "securities-and-commodities"
+      ],
+      "domestic-commerce-consumer-finance": [
+            "domestic-commerce",
+            "consumer-finance"
+      ],
+      "domestic-commerce-insurance-regulation": [
+            "domestic-commerce",
+            "insurance-regulation"
+      ],
+      "domestic-commerce-bankruptcy": [
+            "domestic-commerce",
+            "bankruptcy"
+      ],
+      "domestic-commerce-corporate-management": [
+            "domestic-commerce",
+            "corporate-management"
+      ],
+      "domestic-commerce-small-businesses": [
+            "domestic-commerce",
+            "small-businesses"
+      ],
+      "domestic-commerce-copyrights-and-patents": [
+            "domestic-commerce",
+            "copyrights-and-patents"
+      ],
+      "domestic-commerce-disaster-relief": [
+            "domestic-commerce",
+            "disaster-relief"
+      ],
+      "domestic-commerce-tourism": [
+            "domestic-commerce",
+            "tourism"
+      ],
+      "domestic-commerce-consumer-safety": [
+            "domestic-commerce",
+            "consumer-safety"
+      ],
+      "domestic-commerce-sports-regulation": [
+            "domestic-commerce",
+            "sports-regulation"
+      ],
+      "domestic-commerce-research-and-development": [
+            "domestic-commerce",
+            "research-and-development"
+      ],
+      "domestic-commerce-other": [
+            "domestic-commerce",
+            "other"
+      ],
+      "defense-general": [
+            "defense",
+            "general"
+      ],
+      "defense-alliances": [
+            "defense",
+            "alliances"
+      ],
+      "defense-intelligence": [
+            "defense",
+            "intelligence"
+      ],
+      "defense-readiness": [
+            "defense",
+            "readiness"
+      ],
+      "defense-nuclear-arms": [
+            "defense",
+            "nuclear-arms"
+      ],
+      "defense-military-aid": [
+            "defense",
+            "military-aid"
+      ],
+      "defense-personnel-issues": [
+            "defense",
+            "personnel-issues"
+      ],
+      "defense-procurement": [
+            "defense",
+            "procurement"
+      ],
+      "defense-installations-and-land": [
+            "defense",
+            "installations-and-land"
+      ],
+      "defense-reserve-forces": [
+            "defense",
+            "reserve-forces"
+      ],
+      "defense-hazardous-waste": [
+            "defense",
+            "hazardous-waste"
+      ],
+      "defense-civil": [
+            "defense",
+            "civil"
+      ],
+      "defense-civilian-personnel": [
+            "defense",
+            "civilian-personnel"
+      ],
+      "defense-contractors": [
+            "defense",
+            "contractors"
+      ],
+      "defense-foreign-operations": [
+            "defense",
+            "foreign-operations"
+      ],
+      "defense-claims-against-military": [
+            "defense",
+            "claims-against-military"
+      ],
+      "defense-research-and-development": [
+            "defense",
+            "research-and-development"
+      ],
+      "defense-other": [
+            "defense",
+            "other"
+      ],
+      "technology-general": [
+            "technology",
+            "general"
+      ],
+      "technology-space": [
+            "technology",
+            "space"
+      ],
+      "technology-commercial-use-of-space": [
+            "technology",
+            "commercial-use-of-space"
+      ],
+      "technology-science-transfer": [
+            "technology",
+            "science-transfer"
+      ],
+      "technology-telecommunications": [
+            "technology",
+            "telecommunications"
+      ],
+      "technology-broadcast": [
+            "technology",
+            "broadcast"
+      ],
+      "technology-weather-forecasting": [
+            "technology",
+            "weather-forecasting"
+      ],
+      "technology-computers": [
+            "technology",
+            "computers"
+      ],
+      "technology-research-and-development": [
+            "technology",
+            "research-and-development"
+      ],
+      "technology-other": [
+            "technology",
+            "other"
+      ],
+      "foreign-trade-general": [
+            "foreign-trade",
+            "general"
+      ],
+      "foreign-trade-trade-agreements": [
+            "foreign-trade",
+            "trade-agreements"
+      ],
+      "foreign-trade-exports": [
+            "foreign-trade",
+            "exports"
+      ],
+      "foreign-trade-private-investments": [
+            "foreign-trade",
+            "private-investments"
+      ],
+      "foreign-trade-competitiveness": [
+            "foreign-trade",
+            "competitiveness"
+      ],
+      "foreign-trade-tariff-and-imports": [
+            "foreign-trade",
+            "tariff-and-imports"
+      ],
+      "foreign-trade-exchange-rates": [
+            "foreign-trade",
+            "exchange-rates"
+      ],
+      "foreign-trade-other": [
+            "foreign-trade",
+            "other"
+      ],
+      "international-affairs-general": [
+            "international-affairs",
+            "general"
+      ],
+      "international-affairs-foreign-aid": [
+            "international-affairs",
+            "foreign-aid"
+      ],
+      "international-affairs-resources-exploitation": [
+            "international-affairs",
+            "resources-exploitation"
+      ],
+      "international-affairs-developing-countries": [
+            "international-affairs",
+            "developing-countries"
+      ],
+      "international-affairs-international-finance": [
+            "international-affairs",
+            "international-finance"
+      ],
+      "international-affairs-western-europe": [
+            "international-affairs",
+            "western-europe"
+      ],
+      "international-affairs-specific-country": [
+            "international-affairs",
+            "specific-country"
+      ],
+      "international-affairs-human-rights": [
+            "international-affairs",
+            "human-rights"
+      ],
+      "international-affairs-organizations": [
+            "international-affairs",
+            "organizations"
+      ],
+      "international-affairs-terrorism": [
+            "international-affairs",
+            "terrorism"
+      ],
+      "international-affairs-diplomats": [
+            "international-affairs",
+            "diplomats"
+      ],
+      "international-affairs-other": [
+            "international-affairs",
+            "other"
+      ],
+      "government-operations-general": [
+            "government-operations",
+            "general"
+      ],
+      "government-operations-intergovernmental-relations": [
+            "government-operations",
+            "intergovernmental-relations"
+      ],
+      "government-operations-bureaucracy": [
+            "government-operations",
+            "bureaucracy"
+      ],
+      "government-operations-postal-service": [
+            "government-operations",
+            "postal-service"
+      ],
+      "government-operations-employees": [
+            "government-operations",
+            "employees"
+      ],
+      "government-operations-appointments": [
+            "government-operations",
+            "appointments"
+      ],
+      "government-operations-currency": [
+            "government-operations",
+            "currency"
+      ],
+      "government-operations-procurement-and-contractors": [
+            "government-operations",
+            "procurement-and-contractors"
+      ],
+      "government-operations-property-management": [
+            "government-operations",
+            "property-management"
+      ],
+      "government-operations-tax-administration": [
+            "government-operations",
+            "tax-administration"
+      ],
+      "government-operations-scandals": [
+            "government-operations",
+            "scandals"
+      ],
+      "government-operations-branch-relations": [
+            "government-operations",
+            "branch-relations"
+      ],
+      "government-operations-political-campaigns": [
+            "government-operations",
+            "political-campaigns"
+      ],
+      "government-operations-census-and-statistics": [
+            "government-operations",
+            "census-and-statistics"
+      ],
+      "government-operations-capital-city": [
+            "government-operations",
+            "capital-city"
+      ],
+      "government-operations-claims-against-the-government": [
+            "government-operations",
+            "claims-against-the-government"
+      ],
+      "government-operations-national-holidays": [
+            "government-operations",
+            "national-holidays"
+      ],
+      "government-operations-other": [
+            "government-operations",
+            "other"
+      ],
+      "public-lands-general": [
+            "public-lands",
+            "general"
+      ],
+      "public-lands-national-parks": [
+            "public-lands",
+            "national-parks"
+      ],
+      "public-lands-indigenous-affairs": [
+            "public-lands",
+            "indigenous-affairs"
+      ],
+      "public-lands-public-lands": [
+            "public-lands",
+            "public-lands"
+      ],
+      "public-lands-water-resources": [
+            "public-lands",
+            "water-resources"
+      ],
+      "public-lands-dependencies-and-territories": [
+            "public-lands",
+            "dependencies-and-territories"
+      ],
+      "public-lands-other": [
+            "public-lands",
+            "other"
+      ],
+      "culture-general": [
+            "culture",
+            "general"
+      ]
+}

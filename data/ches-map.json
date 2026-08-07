@@ -1,0 +1,6906 @@
+{
+    "102": {
+        "country": "Belgium",
+        "abbr": "PS",
+        "name": [
+            "Parti Socialiste",
+            "Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "103": {
+        "country": "Belgium",
+        "abbr": "Vooruit/SP/SPA",
+        "name": [
+            "Vooruit, Socialistische Partij",
+            "Onward, Socialist Party",
+            "Socialistische Partij Anders",
+            "Socialist Party Differently"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "104": {
+        "country": "Belgium",
+        "abbr": "ECOLO",
+        "name": [
+            "Ecolo"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "105": {
+        "country": "Belgium",
+        "abbr": "AGALEV",
+        "name": [
+            "Groen Agalev",
+            "Groen! Agalev",
+            "Green!",
+            "Anders gaan leven"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "106": {
+        "country": "Belgium",
+        "abbr": "PRL/MR",
+        "name": [
+            "Parti Réformateur Libéral",
+            "Liberal Reformist Party",
+            "Mouvement Réformateur",
+            "Reformist Movement"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "107": {
+        "country": "Belgium",
+        "abbr": "VLD/PVV",
+        "name": [
+            "Open VLD",
+            "Open Vlaamse Liberalen en Democraten",
+            "Open Flemish Liberals and Democrats",
+            "Partij voor Vrijheid en Vooruitgang",
+            "Party of Liberty and Progress"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "108": {
+        "country": "Belgium",
+        "abbr": "PSC/CDH/LE",
+        "name": [
+            "Parti Social Chrétien",
+            "Christian Social Party",
+            "Centre Démocrate Humaniste",
+            "Les Engagés Humanist Democratic Centre",
+            "The Engaged"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "109": {
+        "country": "Belgium",
+        "abbr": "CVP/CD&V",
+        "name": [
+            "Christelijke Volkspartij",
+            "Christian People's Party",
+            "Christen-Democratisch en Vlaams",
+            "Christian Democratic & Flemish"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "110": {
+        "country": "Belgium",
+        "abbr": "VU/NVA",
+        "name": [
+            "Volksunie",
+            "Nieuw-Vlaamse Alliantie",
+            "People's Union",
+            "New Flemish Alliance"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "111": {
+        "country": "Belgium",
+        "abbr": "FDF/DéFl",
+        "name": [
+            "Front Démocratique des Francophones",
+            "Francophone Democratic Front",
+            "Démocrate fédéraliste Independent",
+            "Christian Democratic & Flemish",
+            "Parti réformateur libéral/Front démocratique des francophones"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "112": {
+        "country": "Belgium",
+        "abbr": "VB",
+        "name": [
+            "Vlaams Blok",
+            "Vlaams Belang",
+            "Flemish Bloc",
+            "Flemish Interest"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "113": {
+        "country": "Belgium",
+        "abbr": "MCC",
+        "name": [
+            "Mouvement des Citoyens pour le Changement",
+            "Citizens' Movement for Change"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "114": {
+        "country": "Belgium",
+        "abbr": "ID21",
+        "name": [
+            "ID21"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "115": {
+        "country": "Belgium",
+        "abbr": "FN",
+        "name": [
+            "Front National",
+            "National Front"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "117": {
+        "country": "Belgium",
+        "abbr": "LDD",
+        "name": [
+            "Lijst Dedecker",
+            "List Dedecker"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2010
+            }
+        ]
+    },
+    "118": {
+        "country": "Belgium",
+        "abbr": "SLP",
+        "name": [
+            "Spirit Sociaal-Liberale Partij",
+            "Spirit Social-Liberal Party",
+            "Spirit"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "119": {
+        "country": "Belgium",
+        "abbr": "PVDA/PVDA-PTB",
+        "name": [
+            "Partij van de Arbeid van België",
+            "Workers' Party of Belgium",
+            "Parti du Travail de Belgique"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2010
+            }
+        ]
+    },
+    "120": {
+        "country": "Belgium",
+        "abbr": "PP",
+        "name": [
+            "Parti Populaire",
+            "People's Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "201": {
+        "country": "Denmark",
+        "abbr": "SD",
+        "name": [
+            "Socialdemokraterne",
+            "Social Democrats"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "202": {
+        "country": "Denmark",
+        "abbr": "RV",
+        "name": [
+            "Det Radikale Venstre",
+            "Radical Left-Social Liberal Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "203": {
+        "country": "Denmark",
+        "abbr": "KF",
+        "name": [
+            "Det Konservative Folksparti",
+            "Conservative People's Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "204": {
+        "country": "Denmark",
+        "abbr": "CD",
+        "name": [
+            "Centrum-Demokraterne",
+            "Centre Democrats"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "206": {
+        "country": "Denmark",
+        "abbr": "SF",
+        "name": [
+            "Socialistisk Folkeparti",
+            "Socialist People's Party",
+            "Green Left"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2019
+            }
+        ]
+    },
+    "210": {
+        "country": "Denmark",
+        "abbr": "KRF",
+        "name": [
+            "Kristeligt Folkeparti",
+            "Christian People's Party"
+        ],
+        "ches": [
+            {
+                "family": "confessional",
+                "since": 1999
+            }
+        ]
+    },
+    "211": {
+        "country": "Denmark",
+        "abbr": "V",
+        "name": [
+            "Venstre, Danmarks Liberale Parti",
+            "Venstre, Liberal Party of Denmark",
+            "Venstre"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "212": {
+        "country": "Denmark",
+        "abbr": "FP",
+        "name": [
+            "Fremskridtspartiet",
+            "Progress Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "213": {
+        "country": "Denmark",
+        "abbr": "EL",
+        "name": [
+            "Enhedslisten-De Rød-Grønne Unity",
+            "List-Red/Green Alliance"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "215": {
+        "country": "Denmark",
+        "abbr": "DF",
+        "name": [
+            "Dansk Folkeparti",
+            "Danish People's Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "216": {
+        "country": "Denmark",
+        "abbr": "JuniB",
+        "name": [
+            "JuniBevægelsen",
+            "June Movement"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 1999
+            }
+        ]
+    },
+    "217": {
+        "country": "Denmark",
+        "abbr": "FolkB",
+        "name": [
+            "Folkebevægelsen mod EU",
+            "People's Movement Against the EU"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 1999
+            }
+        ]
+    },
+    "218": {
+        "country": "Denmark",
+        "abbr": "LA/NLA",
+        "name": [
+            "Liberal Alliance",
+            "Ny Alliance Liberal Alliance",
+            "New Alliance"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "219": {
+        "country": "Denmark",
+        "abbr": "A",
+        "name": [
+            "Alternativet",
+            "The Alternative"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2019
+            }
+        ]
+    },
+    "220": {
+        "country": "Denmark",
+        "abbr": "NB",
+        "name": [
+            "Nye Borgerlige",
+            "The New Right"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "221": {
+        "country": "Denmark",
+        "abbr": "M",
+        "name": [
+            "Moderaterne",
+            "Moderates"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "222": {
+        "country": "Denmark",
+        "abbr": "DD",
+        "name": [
+            "Danmarksdemokraterne",
+            "Denmark Democrats"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "301": {
+        "country": "Germany",
+        "abbr": "CDU",
+        "name": [
+            "Christlich Demokratische Union Deutschlands",
+            "Christian Democratic Union of Germany"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "302": {
+        "country": "Germany",
+        "abbr": "SPD",
+        "name": [
+            "Sozialdemokratische Partei Deutschlands",
+            "Social Democratic Party of Germany"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "303": {
+        "country": "Germany",
+        "abbr": "FDP",
+        "name": [
+            "Freie Demokratische Partei",
+            "Freie Demokratische Partei - Die Liberalen",
+            "Free Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "304": {
+        "country": "Germany",
+        "abbr": "Grunen",
+        "name": [
+            "Bündnis '90; Die Grünen",
+            "Alliance 90; The Greens"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "305": {
+        "country": "Germany",
+        "abbr": "REP",
+        "name": [
+            "Republikaner",
+            "Republikaner"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "306": {
+        "country": "Germany",
+        "abbr": "PDS/Linkspartei/Linke",
+        "name": [
+            "Partei des Demokratischen Sozialismus",
+            "Party of Democratic Socialism",
+            "Die Linkspartei",
+            "Left Party",
+            "Die Linke",
+            "The Left"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "308": {
+        "country": "Germany",
+        "abbr": "CSU",
+        "name": [
+            "Christlich Soziale Union in Bayern",
+            "Christlich-Soziale Union in Bayern e.V.",
+            "Christian Social Union in Bavaria"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "309": {
+        "country": "Germany",
+        "abbr": "DVU/NPD",
+        "name": [
+            "Deutsche Volksunion",
+            "German People's Union",
+            "Nationaldemokratische Partei Deutschlands",
+            "National Democratic Party of Germany"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "310": {
+        "country": "Germany",
+        "abbr": "AfD",
+        "name": [
+            "Alternative für Deutschland",
+            "Alternative for Germany"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "311": {
+        "country": "Germany",
+        "abbr": "Piraten",
+        "name": [
+            "Piratenpartei Deutschland",
+            "Pirate Party of Germany"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "312": {
+        "country": "Germany",
+        "abbr": "DieTier",
+        "name": [
+            "Mensch Umwelt Tierschutz",
+            "Human Environment Animal Protection"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2014
+            }
+        ]
+    },
+    "313": {
+        "country": "Germany",
+        "abbr": "BSW",
+        "name": [
+            "Bündnis Sahra Wagenknecht",
+            "Sahra Wagenknecht Alliance"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2024
+            }
+        ]
+    },
+    "314": {
+        "country": "Germany",
+        "abbr": "FW",
+        "name": [
+            "Freie Wähler",
+            "Free Voters"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2024
+            }
+        ]
+    },
+    "401": {
+        "country": "Greece",
+        "abbr": "PASOK",
+        "name": [
+            "Panellinio Sosialistikó Kínima",
+            "Panhellenic Socialist Movement",
+            "Panhellenic Socialist Movement - Olive Tree",
+            "Panellinio Socialistiko Kinima",
+            "PASOK-KINAL"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "402": {
+        "country": "Greece",
+        "abbr": "ND",
+        "name": [
+            "Néa Dimokratía",
+            "New Democracy",
+            "Nea Demokratia"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "403": {
+        "country": "Greece",
+        "abbr": "SYN/SYRIZA",
+        "name": [
+            "Synaspismós tïs Aristerás kai tïs Proódou",
+            "Coalition of the Left and Progress",
+            "Synaspismó's Rizospastikís Aristerás",
+            "Coalition of the Radical Left",
+            "Synaspismos tis Aristeras kai tis Proodou"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "404": {
+        "country": "Greece",
+        "abbr": "KKE",
+        "name": [
+            "Kommounistikó Kómma Elládas",
+            "Kommounistiko Komma Elladas",
+            "Communist Party of Greece"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "408": {
+        "country": "Greece",
+        "abbr": "POLA",
+        "name": [
+            "Politiki Anixi",
+            "Political Spring"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "409": {
+        "country": "Greece",
+        "abbr": "DIKKI",
+        "name": [
+            "Dimokratiko Kinoniko Kinima",
+            "Democratic Social Movement"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "410": {
+        "country": "Greece",
+        "abbr": "LAOS",
+        "name": [
+            "Laïkós Orthódoxos Synagermós",
+            "Popular Orthodox Rally"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2006
+            }
+        ]
+    },
+    "411": {
+        "country": "Greece",
+        "abbr": "OP",
+        "name": [
+            "Oikologoi Prasinoi",
+            "Ecologist Greens"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2010
+            }
+        ]
+    },
+    "412": {
+        "country": "Greece",
+        "abbr": "ANEL",
+        "name": [
+            "Anexartitoi Ellines",
+            "Independent Greeks"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2014
+            }
+        ]
+    },
+    "413": {
+        "country": "Greece",
+        "abbr": "Potami",
+        "name": [
+            "To Potami",
+            "The River"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "414": {
+        "country": "Greece",
+        "abbr": "DIMAR",
+        "name": [
+            "Dimokratiki Aristera",
+            "Democratic Left"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "415": {
+        "country": "Greece",
+        "abbr": "XA",
+        "name": [
+            "Laïkós Sýndesmos-Chrysí Avgí",
+            "Popular Association-Golden Dawn"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2014
+            }
+        ]
+    },
+    "416": {
+        "country": "Greece",
+        "abbr": "EL",
+        "name": [
+            "Elliniki Lisi",
+            "Elliniki Lusi-Greek Solution",
+            "Greek Solution"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "417": {
+        "country": "Greece",
+        "abbr": "MR25",
+        "name": [
+            "Métopo Evropaikís Realistikís Anypakoís",
+            "European Realistic Disobedience Front [MeRa25]"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2019
+            }
+        ]
+    },
+    "418": {
+        "country": "Greece",
+        "abbr": "KIDISO",
+        "name": [
+            "Kinima Dimokraton Sosialiston",
+            "Movement of Democratic Socialists"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2019
+            }
+        ]
+    },
+    "419": {
+        "country": "Greece",
+        "abbr": "Niki",
+        "name": [
+            "Dimokratikó Patriotikó Kínima - Níki",
+            "Dimokratikó Patriotikó Kínima «NIKI»",
+            "Democratic Patriotic Movement - Victory"
+        ],
+        "ches": [
+            {
+                "family": "confessional",
+                "since": 2024
+            }
+        ]
+    },
+    "420": {
+        "country": "Greece",
+        "abbr": "PE",
+        "name": [
+            "Plefsi Eleftherias",
+            "Course of Freedom"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2024
+            }
+        ]
+    },
+    "421": {
+        "country": "Greece",
+        "abbr": "FL",
+        "name": [
+            "Foní Loyikís",
+            "Voice of Reason"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "422": {
+        "country": "Greece",
+        "abbr": "Spartans",
+        "name": [
+            "Spartiátes",
+            "Spartans"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "501": {
+        "country": "Spain",
+        "abbr": "PSOE",
+        "name": [
+            "Partido Socialista Obrero Español",
+            "Partido Socialista Obrero Español (Progresistas)",
+            "Spanish Socialist Workers' Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "502": {
+        "country": "Spain",
+        "abbr": "PP",
+        "name": [
+            "Partido Popular",
+            "Alianza-Partido Popular",
+            "People's Party",
+            "People's Alliance Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "504": {
+        "country": "Spain",
+        "abbr": "IU",
+        "name": [
+            "Izquierda Unida",
+            "United Left"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "505": {
+        "country": "Spain",
+        "abbr": "CiU",
+        "name": [
+            "Convergència i Unió",
+            "Convergence and Unity"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "506": {
+        "country": "Spain",
+        "abbr": "PNV",
+        "name": [
+            "Euzko Alderdi Jeltzalea/Partido Nacionalista Vasco",
+            "Partido Nacionalista Vasco",
+            "Basque Nationalist Party"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "507": {
+        "country": "Spain",
+        "abbr": "EA",
+        "name": [
+            "Eusko Alkartasuna",
+            "Basque Solidarity"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "508": {
+        "country": "Spain",
+        "abbr": "EH",
+        "name": [
+            "Euskal Herritarrok",
+            "We Basque Citizens"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "510": {
+        "country": "Spain",
+        "abbr": "PAR",
+        "name": [
+            "Partido Aragonés",
+            "Aragonese Party"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "511": {
+        "country": "Spain",
+        "abbr": "ERC",
+        "name": [
+            "Esquerra Republicana de Catalunya",
+            "Republican Left of Catalonia"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "512": {
+        "country": "Spain",
+        "abbr": "UV",
+        "name": [
+            "Unión Valenciana",
+            "Valencian Union"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "513": {
+        "country": "Spain",
+        "abbr": "BNG",
+        "name": [
+            "Bloque Nacionalista Galego",
+            "Galician Nationalist Bloc"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "514": {
+        "country": "Spain",
+        "abbr": "VERDE",
+        "name": [
+            "Los Verdes",
+            "The Greens"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "516": {
+        "country": "Spain",
+        "abbr": "PA",
+        "name": [
+            "Partido Andalucista",
+            "Andalusian Party"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2002
+            }
+        ]
+    },
+    "517": {
+        "country": "Spain",
+        "abbr": "CC",
+        "name": [
+            "Coalición Canaria",
+            "Coalicion Canaria"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "518": {
+        "country": "Spain",
+        "abbr": "IC",
+        "name": [
+            "Iniciativa per Catalunya",
+            "Initiative for Catalonia",
+            "Izquierda Unida-Iniciativa per Catalunya"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2014
+            }
+        ]
+    },
+    "519": {
+        "country": "Spain",
+        "abbr": "PSC",
+        "name": [
+            "Partit dels Socialistes de Catalunya",
+            "Catalan Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "520": {
+        "country": "Spain",
+        "abbr": "CHA",
+        "name": [
+            "Chunta Aragonesista",
+            "Aragonese Council"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2006
+            }
+        ]
+    },
+    "521": {
+        "country": "Spain",
+        "abbr": "CpE",
+        "name": [
+            "Coalicion por Europa",
+            "Coalition for Europe"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2010
+            }
+        ]
+    },
+    "522": {
+        "country": "Spain",
+        "abbr": "EdP-V",
+        "name": [
+            "Europa de los Pueblos-Los Verdes",
+            "Europe of the Peoples-Greens"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2010
+            }
+        ]
+    },
+    "523": {
+        "country": "Spain",
+        "abbr": "UPyD",
+        "name": [
+            "Unión Progreso y Democracia",
+            "Union, Progress, and Democracy"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "524": {
+        "country": "Spain",
+        "abbr": "EHB",
+        "name": [
+            "Euskal Herria Bildu",
+            "Amaiur Basque",
+            "Country Unite/Gather",
+            "Amaiur"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2014
+            }
+        ]
+    },
+    "525": {
+        "country": "Spain",
+        "abbr": "Podemos",
+        "name": [
+            "Podemos",
+            "Unidas Podemos",
+            "We Can"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2014
+            }
+        ]
+    },
+    "526": {
+        "country": "Spain",
+        "abbr": "Cs",
+        "name": [
+            "Ciudadanos-Partido de la Ciudadanía",
+            "Citizens-Party of the Citizenry"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "527": {
+        "country": "Spain",
+        "abbr": "Vox",
+        "name": [
+            "Vox",
+            "Voice (Latin)"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "528": {
+        "country": "Spain",
+        "abbr": "Pais",
+        "name": [
+            "Más Pais",
+            "More Country"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2019
+            }
+        ]
+    },
+    "550": {
+        "country": "Spain",
+        "abbr": "PdeCat",
+        "name": [
+            "Partit Demócrata Europeu Catalá",
+            "Catalan European Democratic Party",
+            "(Junts per Cataluyna)",
+            "(Together for Catalonia partner)"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2019
+            }
+        ]
+    },
+    "551": {
+        "country": "Spain",
+        "abbr": "Sumar",
+        "name": [
+            "Sumar",
+            "Unite"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2024
+            }
+        ]
+    },
+    "552": {
+        "country": "Spain",
+        "abbr": "Salf",
+        "name": [
+            "Se Acabó La Fiesta",
+            "The Party is Over"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "553": {
+        "country": "Spain",
+        "abbr": "UPN",
+        "name": [
+            "Unión del Pueblo Navarro",
+            "Navarrese People's Union"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2024
+            }
+        ]
+    },
+    "601": {
+        "country": "France",
+        "abbr": "PCF",
+        "name": [
+            "Parti Communiste Français",
+            "French Communist Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "602": {
+        "country": "France",
+        "abbr": "PS",
+        "name": [
+            "Parti Socialiste",
+            "Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "603": {
+        "country": "France",
+        "abbr": "PRG",
+        "name": [
+            "Parti Radical de Gauche",
+            "Mouvement des Radicaux de Gauche",
+            "Left Radical Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "605": {
+        "country": "France",
+        "abbr": "VERTS/EELV",
+        "name": [
+            "Les Verts",
+            "Europe Écologie Les Verts",
+            "Les Verts-Europe-Ecologie",
+            "Green Party",
+            "Europe Ecology-The Green"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "609": {
+        "country": "France",
+        "abbr": "RPR/UMP/LR",
+        "name": [
+            "Rassemblement pour la République",
+            "Rally for the Republic",
+            "Union pour un Mouvement Populaire",
+            "Union for Popular Movement",
+            "Les Républicains",
+            "The Republicans"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "610": {
+        "country": "France",
+        "abbr": "FN/RN",
+        "name": [
+            "Front National",
+            "Rassemblement national",
+            "National Front",
+            "National Rally"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "612": {
+        "country": "France",
+        "abbr": "RPF/MPF",
+        "name": [
+            "Rassemblement pour la France/Mouvement Pour la France",
+            "Mouvement Pour la France",
+            "Rassemblement pour la France",
+            "Mouvement Pour la France",
+            "Movement for France"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "613": {
+        "country": "France",
+        "abbr": "UDF/MoDem",
+        "name": [
+            "Union pour la Démocratie Française",
+            "Union for French Democracy",
+            "Mouvement Démocrate",
+            "Democratic Movement"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "614": {
+        "country": "France",
+        "abbr": "LO-LCR",
+        "name": [
+            "Lutte Ouvrière/Ligue communiste révolutionnaire",
+            "Workers' Struggle/Revolutionary Communist League"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "615": {
+        "country": "France",
+        "abbr": "DL",
+        "name": [
+            "Démocratie Libérale",
+            "Liberal Democracy"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "617": {
+        "country": "France",
+        "abbr": "MEI",
+        "name": [
+            "Mouvement Ecologiste Indépendant",
+            "Independent Ecological Movement"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "618": {
+        "country": "France",
+        "abbr": "D",
+        "name": [
+            "La Droite",
+            "The Right"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 1999
+            }
+        ]
+    },
+    "619": {
+        "country": "France",
+        "abbr": "CPNT",
+        "name": [
+            "Chasse, Pêche, Nature, Traditions",
+            "Hunting, Fishing, Nature, Tradition Party"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 1999
+            }
+        ]
+    },
+    "620": {
+        "country": "France",
+        "abbr": "MN",
+        "name": [
+            "Mouvement National Républicain",
+            "National Republican Movement"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "621": {
+        "country": "France",
+        "abbr": "NC",
+        "name": [
+            "Nouveau Centre",
+            "New Center"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "622": {
+        "country": "France",
+        "abbr": "PRV",
+        "name": [
+            "Parti radical",
+            "Radical Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "623": {
+        "country": "France",
+        "abbr": "AC",
+        "name": [
+            "Alliance centriste",
+            "Centrist Alliance"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "624": {
+        "country": "France",
+        "abbr": "PG",
+        "name": [
+            "Parti de Gauche",
+            "Left Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2014
+            }
+        ]
+    },
+    "625": {
+        "country": "France",
+        "abbr": "Ens",
+        "name": [
+            "Ensemble",
+            "Together"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2014
+            }
+        ]
+    },
+    "626": {
+        "country": "France",
+        "abbr": "RE/LREM",
+        "name": [
+            "Rennaissance",
+            "Renaissance",
+            "LaRépublique en Marche!",
+            "The Republic Onwards!"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "627": {
+        "country": "France",
+        "abbr": "FI",
+        "name": [
+            "La France Insourmise",
+            "Unbowed France"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2019
+            }
+        ]
+    },
+    "628": {
+        "country": "France",
+        "abbr": "DLF",
+        "name": [
+            "Debout la France",
+            "France Arise"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "630": {
+        "country": "France",
+        "abbr": "REC",
+        "name": [
+            "Reconquête",
+            "Reconquest"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "631": {
+        "country": "France",
+        "abbr": "Horizons",
+        "name": [
+            "Horizons",
+            "Horizons"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "701": {
+        "country": "Ireland",
+        "abbr": "FF",
+        "name": [
+            "Fianna Fáil",
+            "Fianna Fáil Party",
+            "Soldiers of Destiny"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "702": {
+        "country": "Ireland",
+        "abbr": "FG",
+        "name": [
+            "Fine Gael",
+            "Fine Gael Party",
+            "Family of the Irish"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "703": {
+        "country": "Ireland",
+        "abbr": "Lab",
+        "name": [
+            "Páirti Lucht Oibre",
+            "Labour"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "705": {
+        "country": "Ireland",
+        "abbr": "GP",
+        "name": [
+            "Comhaontas Glas",
+            "Green Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "707": {
+        "country": "Ireland",
+        "abbr": "SF",
+        "name": [
+            "Sinn Féin",
+            "Sinn Fein",
+            "We Ourselves"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "708": {
+        "country": "Ireland",
+        "abbr": "SP",
+        "name": [
+            "Páirtí Sóisialach",
+            "Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "709": {
+        "country": "Ireland",
+        "abbr": "PBPA/S-PBP",
+        "name": [
+            "People Before Profit Alliance",
+            "People Before Profit Alliance",
+            "Dlúthphairtíocht-Pobal Roimh Bhrabús",
+            "Solidarity-People Before Profit"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2014
+            }
+        ]
+    },
+    "710": {
+        "country": "Ireland",
+        "abbr": "DS",
+        "name": [
+            "Daonlathaigh Shóisialta",
+            "Social Democrats"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2019
+            }
+        ]
+    },
+    "711": {
+        "country": "Ireland",
+        "abbr": "I4C",
+        "name": [
+            "Independents for Change",
+            "Independents for Change"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2019
+            }
+        ]
+    },
+    "712": {
+        "country": "Ireland",
+        "abbr": "RI",
+        "name": [
+            "Renua Ireland",
+            "Renua Ireland"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2019
+            }
+        ]
+    },
+    "713": {
+        "country": "Ireland",
+        "abbr": "Aon",
+        "name": [
+            "Aontú",
+            "Unity"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2024
+            }
+        ]
+    },
+    "802": {
+        "country": "Italy",
+        "abbr": "PDS/DS",
+        "name": [
+            "Partito Democratico della Sinistra",
+            "Democratic Party of the Left",
+            "Democratici di Sinistra",
+            "Democrats of the Left"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "803": {
+        "country": "Italy",
+        "abbr": "RC",
+        "name": [
+            "Partito della Rifondazione Comunista",
+            "Partito della Rifondazione Comunista - Sinistra Europea",
+            "Communist Refoundation Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "805": {
+        "country": "Italy",
+        "abbr": "AN",
+        "name": [
+            "Alleanza Nazionale",
+            "National Alliance",
+            "Movimento sociale italiano - Destra nazionale"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "806": {
+        "country": "Italy",
+        "abbr": "PRI",
+        "name": [
+            "Partito Repubblicano Italiano",
+            "Italian Republican Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "807": {
+        "country": "Italy",
+        "abbr": "PSDI/SDI",
+        "name": [
+            "Partito Socialista Democratico Italiano",
+            "Italian Democratic Socialist Party",
+            "Socialisti Democratici Italiani",
+            "Italian Democratic Socialists"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "808": {
+        "country": "Italy",
+        "abbr": "FdV/Verdi",
+        "name": [
+            "Federazione dei Verdi",
+            "Federation of Greens"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "811": {
+        "country": "Italy",
+        "abbr": "LEGA/LN",
+        "name": [
+            "Lega",
+            "League",
+            "Lega Nord",
+            "Northern League"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "813": {
+        "country": "Italy",
+        "abbr": "RAD",
+        "name": [
+            "Radicali Italiani",
+            "Italian Radicals"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2006
+            }
+        ]
+    },
+    "814": {
+        "country": "Italy",
+        "abbr": "CCD/UDC",
+        "name": [
+            "Centro Cristiano Democratico",
+            "Unione dei Democratici",
+            "Christian Democratic Center",
+            "Cristiani e die Democratici di Centro",
+            "Union of Christian and Center Democrats",
+            "Unione di Centro",
+            "Union of the Centre",
+            "Unione dei Democratici cristiani e dei Democratici di Centro"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "815": {
+        "country": "Italy",
+        "abbr": "FI",
+        "name": [
+            "Forza Italia -Il Popolo della Libertà",
+            "Il Popolo della Libertà",
+            "Forward Italy-The People of Freedom",
+            "Forza Italia"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "817": {
+        "country": "Italy",
+        "abbr": "CU/UD",
+        "name": [
+            "Unione Democratica",
+            "Democratic Union"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "818": {
+        "country": "Italy",
+        "abbr": "CDU",
+        "name": [
+            "Cristiani Democratici Uniti",
+            "United Christian Democrats"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "819": {
+        "country": "Italy",
+        "abbr": "DEM/DL",
+        "name": [
+            "I Democratici",
+            "The Democrats",
+            "Democrazia è Libertà",
+            "Democracy is Freedom",
+            "La Margherita",
+            "The Daisy"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "820": {
+        "country": "Italy",
+        "abbr": "LB",
+        "name": [
+            "Lista Bonino",
+            "Bonino List"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 1999
+            }
+        ]
+    },
+    "821": {
+        "country": "Italy",
+        "abbr": "MS",
+        "name": [
+            "Movimento Sociale Fiamma Tricolore",
+            "Tricolor Flame Social Movement"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "822": {
+        "country": "Italy",
+        "abbr": "PdUP",
+        "name": [
+            "Partito di Unità Proletaria",
+            "Party of Proletarian Unity for Communism"
+        ]
+    },
+    "823": {
+        "country": "Italy",
+        "abbr": "PPI",
+        "name": [
+            "Partito Popolare Italiano",
+            "Italian Popular Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "824": {
+        "country": "Italy",
+        "abbr": "PsDA",
+        "name": [
+            "Partito Sardo d'Azione",
+            "Sardinian Action Party"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "825": {
+        "country": "Italy",
+        "abbr": "RI",
+        "name": [
+            "Rinnovamento Italiano",
+            "Italian Renewal-Dini List"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 1999
+            }
+        ]
+    },
+    "826": {
+        "country": "Italy",
+        "abbr": "SEG",
+        "name": [
+            "Patto Segni",
+            "Segni Pact"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 1999
+            }
+        ]
+    },
+    "827": {
+        "country": "Italy",
+        "abbr": "SVP",
+        "name": [
+            "Südtiroler Volkspartei",
+            "South Tyrolean People's Party"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "828": {
+        "country": "Italy",
+        "abbr": "IdV",
+        "name": [
+            "Di Pietro-Italia dei Valori",
+            "Italia dei Valori - Lista Di Pietro",
+            "Italy of Values"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "829": {
+        "country": "Italy",
+        "abbr": "UDEUR",
+        "name": [
+            "Popolari-UDEUR",
+            "Popular-UDEUR"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "830": {
+        "country": "Italy",
+        "abbr": "PP",
+        "name": [
+            "Partito dei Pensionati",
+            "Pensioners' Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2006
+            }
+        ]
+    },
+    "832": {
+        "country": "Italy",
+        "abbr": "+E/MRE",
+        "name": [
+            "Più Europa",
+            "Movimento Repubblicani Europei",
+            "More Europe",
+            "European Republican Movement"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2006
+            }
+        ]
+    },
+    "835": {
+        "country": "Italy",
+        "abbr": "NPSI",
+        "name": [
+            "Nuovo Partito Socialista Italiano",
+            "New Italian Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2006
+            }
+        ]
+    },
+    "836": {
+        "country": "Italy",
+        "abbr": "PdCI",
+        "name": [
+            "Partito dei Comunisti Italiani",
+            "Party of Italian Communists"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "837": {
+        "country": "Italy",
+        "abbr": "PD",
+        "name": [
+            "Partido Democratico",
+            "Partito Democratico",
+            "Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2010
+            }
+        ]
+    },
+    "838": {
+        "country": "Italy",
+        "abbr": "AVS/SL/SEL",
+        "name": [
+            "Alleanza Verdi e Sinistra",
+            "Sinistra e Libertà",
+            "Green & Left Alliance",
+            "Left and Freedom",
+            "Sinistra Ecologia Libertà",
+            "Left Ecology Freedom",
+            "Sinistra Italiana",
+            "Italian Left-Left Ecology Freedom"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2010
+            }
+        ]
+    },
+    "839": {
+        "country": "Italy",
+        "abbr": "PSI",
+        "name": [
+            "Partito Socialista Italiano",
+            "Italian Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2010
+            }
+        ]
+    },
+    "840": {
+        "country": "Italy",
+        "abbr": "MpA",
+        "name": [
+            "Movimento per le Autonomie",
+            "Movement for Autonomies"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2010
+            }
+        ]
+    },
+    "842": {
+        "country": "Italy",
+        "abbr": "SD",
+        "name": [
+            "Sinistra Democratica",
+            "Democratic Left"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2010
+            }
+        ]
+    },
+    "843": {
+        "country": "Italy",
+        "abbr": "CD",
+        "name": [
+            "Centro Democratico-Diritti e Libertá",
+            "Democratic Centre"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 2014
+            }
+        ]
+    },
+    "844": {
+        "country": "Italy",
+        "abbr": "FDL",
+        "name": [
+            "Fratelli d'Italia",
+            "Brothers of Italy"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2014
+            }
+        ]
+    },
+    "845": {
+        "country": "Italy",
+        "abbr": "M5S",
+        "name": [
+            "MoVimento Cinque Stelle",
+            "Five Star Movement",
+            "Movimento 5 Stelle"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "846": {
+        "country": "Italy",
+        "abbr": "SC",
+        "name": [
+            "Scelta Civica",
+            "Civic Choice"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "847": {
+        "country": "Italy",
+        "abbr": "VdA",
+        "name": [
+            "Vallée d'Aoste",
+            "Aosta Valley"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2014
+            }
+        ]
+    },
+    "848": {
+        "country": "Italy",
+        "abbr": "NCD",
+        "name": [
+            "Nuovo Centrodestra",
+            "New Centre-Right"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "849": {
+        "country": "Italy",
+        "abbr": "A-IV",
+        "name": [
+            "Azione-Italia Viva",
+            "Action-Italy Alive"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "850": {
+        "country": "Italy",
+        "abbr": "EV",
+        "name": [
+            "Europa Verde",
+            "Verdi Europa",
+            "Green Europe"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2024
+            }
+        ]
+    },
+    "1001": {
+        "country": "Netherlands",
+        "abbr": "CDA",
+        "name": [
+            "Christen-Democratisch Appél",
+            "Christian Democratic Appeal"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "1002": {
+        "country": "Netherlands",
+        "abbr": "PvdA",
+        "name": [
+            "Partij van de Arbeid",
+            "Labour Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "1003": {
+        "country": "Netherlands",
+        "abbr": "VVD",
+        "name": [
+            "Volkspartij voor Vrijheid en Democratie",
+            "People's Party for Freedom and Democracy"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "1004": {
+        "country": "Netherlands",
+        "abbr": "D66",
+        "name": [
+            "Democraten 66",
+            "Democrats 66"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "1005": {
+        "country": "Netherlands",
+        "abbr": "GL",
+        "name": [
+            "GroenLinks",
+            "GreenLeft"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "1006": {
+        "country": "Netherlands",
+        "abbr": "SGP",
+        "name": [
+            "Staatkundig Gereformeerde Partij",
+            "Reformed Political Party"
+        ],
+        "ches": [
+            {
+                "family": "confessional",
+                "since": 1999
+            }
+        ]
+    },
+    "1007": {
+        "country": "Netherlands",
+        "abbr": "GPV",
+        "name": [
+            "Gereformeerd Politiek Verbond",
+            "Reformed Political League"
+        ],
+        "ches": [
+            {
+                "family": "confessional",
+                "since": 1999
+            }
+        ]
+    },
+    "1008": {
+        "country": "Netherlands",
+        "abbr": "RPF",
+        "name": [
+            "Reformatorische Politieke Federatie",
+            "Reformational Political Federation"
+        ],
+        "ches": [
+            {
+                "family": "confessional",
+                "since": 1999
+            }
+        ]
+    },
+    "1009": {
+        "country": "Netherlands",
+        "abbr": "CD",
+        "name": [
+            "Centrum Democraten",
+            "Center Democrats"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "1014": {
+        "country": "Netherlands",
+        "abbr": "SP",
+        "name": [
+            "Socialistische Partij",
+            "Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "1015": {
+        "country": "Netherlands",
+        "abbr": "LPF",
+        "name": [
+            "Lijst Pim Fortuyn"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "1016": {
+        "country": "Netherlands",
+        "abbr": "CU",
+        "name": [
+            "ChristenUnie",
+            "ChristianUnion"
+        ],
+        "ches": [
+            {
+                "family": "confessional",
+                "since": 2002
+            }
+        ]
+    },
+    "1017": {
+        "country": "Netherlands",
+        "abbr": "PVV",
+        "name": [
+            "Partij voor de Vrijheid",
+            "Party for Freedom"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2006
+            }
+        ]
+    },
+    "1018": {
+        "country": "Netherlands",
+        "abbr": "PvdD",
+        "name": [
+            "Partij voor de Dieren",
+            "Party for the Animals"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2010
+            }
+        ]
+    },
+    "1020": {
+        "country": "Netherlands",
+        "abbr": "50PLUS",
+        "name": [
+            "50PLUS"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "1050": {
+        "country": "Netherlands",
+        "abbr": "DENK",
+        "name": [
+            "Beweging DENK",
+            "Think"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2019
+            }
+        ]
+    },
+    "1051": {
+        "country": "Netherlands",
+        "abbr": "FvD",
+        "name": [
+            "Forum voor Democratie",
+            "Forum for Democracy"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "1052": {
+        "country": "Netherlands",
+        "abbr": "Volt",
+        "name": [
+            "Volt Nederland",
+            "Volt Netherlands"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "1054": {
+        "country": "Netherlands",
+        "abbr": "BBB",
+        "name": [
+            "BoerBurgerBeweging",
+            "Farmer-Citizen Movement"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2024
+            }
+        ]
+    },
+    "1056": {
+        "country": "Netherlands",
+        "abbr": "NSC",
+        "name": [
+            "Nieuw Sociaal Contract",
+            "New Social Contract"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2024
+            }
+        ]
+    },
+    "1101": {
+        "country": "United Kingdom",
+        "abbr": "Cons",
+        "name": [
+            "Conservative Party",
+            "Conservative and Unionist Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "1102": {
+        "country": "United Kingdom",
+        "abbr": "Lab",
+        "name": [
+            "Labour Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "1104": {
+        "country": "United Kingdom",
+        "abbr": "LibDem",
+        "name": [
+            "Liberal Democratic Party",
+            "Liberal Democrat Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "1105": {
+        "country": "United Kingdom",
+        "abbr": "SNP",
+        "name": [
+            "Scottish National Party"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "1106": {
+        "country": "United Kingdom",
+        "abbr": "Plaid",
+        "name": [
+            "Plaid Cymru",
+            "Party of Wales"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "1107": {
+        "country": "United Kingdom",
+        "abbr": "Green",
+        "name": [
+            "Green Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "1108": {
+        "country": "United Kingdom",
+        "abbr": "UKIP",
+        "name": [
+            "United Kingdom Independence Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "1109": {
+        "country": "United Kingdom",
+        "abbr": "BNP",
+        "name": [
+            "British National Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2010
+            }
+        ]
+    },
+    "1110": {
+        "country": "United Kingdom",
+        "abbr": "Brexit/Reform",
+        "name": [
+            "Brexit Party/Reform UK",
+            "Brexit Party",
+            "The Brexit Party",
+            "Reform UK"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "1201": {
+        "country": "Portugal",
+        "abbr": "CDU",
+        "name": [
+            "Coligação Democrática Unitária",
+            "Democratic Unitarian Coalition"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "1202": {
+        "country": "Portugal",
+        "abbr": "CDS/PP/CDS-PP",
+        "name": [
+            "Centro Democrático e Social",
+            "Democratic and Social Center",
+            "Partido Popular",
+            "People's Party",
+            "Centro Democrático e Social-Partido",
+            "Popular CDS-People's Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "1205": {
+        "country": "Portugal",
+        "abbr": "PS",
+        "name": [
+            "Partido Socialista",
+            "Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "1206": {
+        "country": "Portugal",
+        "abbr": "PPD/PSD",
+        "name": [
+            "Partido Popular Democrático",
+            "Democratic People's Party",
+            "Partido Social Democrata",
+            "Social Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "1208": {
+        "country": "Portugal",
+        "abbr": "BE",
+        "name": [
+            "Bloco de Esquerda",
+            "Left Bloc"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "1209": {
+        "country": "Portugal",
+        "abbr": "MPT",
+        "name": [
+            "Partido da Terra",
+            "Earth Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2014
+            }
+        ]
+    },
+    "1210": {
+        "country": "Portugal",
+        "abbr": "PCP",
+        "name": [
+            "Partido Comunista Português",
+            "Portuguese Communist Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2019
+            }
+        ]
+    },
+    "1211": {
+        "country": "Portugal",
+        "abbr": "PEV",
+        "name": [
+            "Partido Ecologista 'Os Verdes'",
+            "Ecologist Party 'The Greens'"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2019
+            }
+        ]
+    },
+    "1250": {
+        "country": "Portugal",
+        "abbr": "PAN",
+        "name": [
+            "Pessosas-Animais-Natureza",
+            "People-Animals-Nature"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2019
+            }
+        ]
+    },
+    "1251": {
+        "country": "Portugal",
+        "abbr": "L",
+        "name": [
+            "Livre",
+            "Free"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2024
+            }
+        ]
+    },
+    "1252": {
+        "country": "Portugal",
+        "abbr": "IL",
+        "name": [
+            "Iniciativa Liberal",
+            "Liberal Initiative"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "1253": {
+        "country": "Portugal",
+        "abbr": "CHEGA",
+        "name": [
+            "Chega",
+            "Enough"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "1301": {
+        "country": "Austria",
+        "abbr": "SPÖ",
+        "name": [
+            "Sozialdemokratische Partei Österreichs",
+            "Social Democratic Party of Austria"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "1302": {
+        "country": "Austria",
+        "abbr": "ÖVP",
+        "name": [
+            "Österreichische Volkspartei",
+            "Austrian People's Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "1303": {
+        "country": "Austria",
+        "abbr": "FPÖ",
+        "name": [
+            "Freiheitliche Partei Österreichs",
+            "Freedom Party of Austria"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "1304": {
+        "country": "Austria",
+        "abbr": "Grüne",
+        "name": [
+            "Die Grünen",
+            "The Austrian Green Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "1306": {
+        "country": "Austria",
+        "abbr": "LIF/NEOS",
+        "name": [
+            "Liberales Forum",
+            "Liberal Forum",
+            "NEOS-Das Neue Österreich und Liberales Forum",
+            "NEOS-The New Austria and Liberal Forum"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "1307": {
+        "country": "Austria",
+        "abbr": "BZÖ",
+        "name": [
+            "Bündnis Zukunft Österreich",
+            "Alliance for the Future of Austria"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2006
+            }
+        ]
+    },
+    "1308": {
+        "country": "Austria",
+        "abbr": "MARTIN",
+        "name": [
+            "Liste Dr. Hans-Peter Martin",
+            "Hans-Peter Martin's List"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2006
+            }
+        ]
+    },
+    "1310": {
+        "country": "Austria",
+        "abbr": "TeamStronach",
+        "name": [
+            "Team Stronach für Österreich",
+            "Team Stronach for Austria"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "1401": {
+        "country": "Finland",
+        "abbr": "SDP",
+        "name": [
+            "Suomen Sosialidemokraattinen Puolue",
+            "Social Democratic Party of Finland"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "1402": {
+        "country": "Finland",
+        "abbr": "KOK",
+        "name": [
+            "Kansallinen Kokoomus",
+            "National Coalition Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2019
+            }
+        ]
+    },
+    "1403": {
+        "country": "Finland",
+        "abbr": "KESK",
+        "name": [
+            "Suomen Keskusta",
+            "Finnish Center Party"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 1999
+            }
+        ]
+    },
+    "1404": {
+        "country": "Finland",
+        "abbr": "VAS",
+        "name": [
+            "Vasemmistoliitto",
+            "Left Alliance",
+            "Demokraattinen Liitto - Demokratiska Förbundet",
+            "Democratic Union"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "1405": {
+        "country": "Finland",
+        "abbr": "PS",
+        "name": [
+            "Perussuomalaiset True Finns",
+            "The Finns party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2006
+            }
+        ]
+    },
+    "1406": {
+        "country": "Finland",
+        "abbr": "RKP/SFP",
+        "name": [
+            "Ruotsalainen kansanpuolue/ Svenska folkpartiet",
+            "Swedish People's Party",
+            "Suomen ruotsalainen kansanpuolue/Svenska folkpartiet i Finland",
+            "The Swedish People's Party of Finland"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 1999
+            }
+        ]
+    },
+    "1408": {
+        "country": "Finland",
+        "abbr": "VIHR",
+        "name": [
+            "Vihreä Liitto",
+            "Green League",
+            "Vihreät"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "1409": {
+        "country": "Finland",
+        "abbr": "SKL/KD",
+        "name": [
+            "Suomen Kristillinen Liitto",
+            "Finnish Christian League",
+            "Kristillisdemokraatit",
+            "Christian Democrats"
+        ],
+        "ches": [
+            {
+                "family": "confessional",
+                "since": 2014
+            }
+        ]
+    },
+    "1411": {
+        "country": "Finland",
+        "abbr": "EKA",
+        "name": [
+            "Eläkeläiset Kansan Asialla",
+            "Pensioners for the People"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 1999
+            }
+        ]
+    },
+    "1412": {
+        "country": "Finland",
+        "abbr": "REM",
+        "name": [
+            "Remonttiryhmä",
+            "Reform Group"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 1999
+            }
+        ]
+    },
+    "1413": {
+        "country": "Finland",
+        "abbr": "KIPU",
+        "name": [
+            "Kirjava 'puolue' - Elonkehän puolesta",
+            "Ecological Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "1414": {
+        "country": "Finland",
+        "abbr": "AS",
+        "name": [
+            "Åländsk Samling (ÅS)",
+            "For Åland (Åland Coalition)"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2024
+            }
+        ]
+    },
+    "1601": {
+        "country": "Sweden",
+        "abbr": "V",
+        "name": [
+            "Vänsterpartiet",
+            "Left Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 1999
+            }
+        ]
+    },
+    "1602": {
+        "country": "Sweden",
+        "abbr": "SAP",
+        "name": [
+            "Arbetarpartiet- Socialdemokraterna",
+            "Arbetarepartiet- Socialdemokraterna",
+            "Socialdemokraterna",
+            "Socialdemokratiska arbetarepartiet",
+            "Worker's Party-Social Democrats",
+            "Sveriges Socialdemokratiska Arbetareparti",
+            "Swedish Social Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 1999
+            }
+        ]
+    },
+    "1603": {
+        "country": "Sweden",
+        "abbr": "C",
+        "name": [
+            "Centerpartiet",
+            "Center Party"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 1999
+            }
+        ]
+    },
+    "1604": {
+        "country": "Sweden",
+        "abbr": "FP/L",
+        "name": [
+            "Folkpartiet liberalerna",
+            "Liberal People's Party",
+            "Liberalerna",
+            "Liberal People's Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 1999
+            }
+        ]
+    },
+    "1605": {
+        "country": "Sweden",
+        "abbr": "M",
+        "name": [
+            "Moderaterna",
+            "Moderata Samlingspartiet",
+            "Moderate Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 1999
+            }
+        ]
+    },
+    "1606": {
+        "country": "Sweden",
+        "abbr": "KD",
+        "name": [
+            "Kristdemokraterna",
+            "Christian-Democrats"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 1999
+            }
+        ]
+    },
+    "1607": {
+        "country": "Sweden",
+        "abbr": "MP",
+        "name": [
+            "Miljöepartiet de Gröna",
+            "Miljöpartiet de gröna",
+            "Environment Party-The Greens"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 1999
+            }
+        ]
+    },
+    "1608": {
+        "country": "Sweden",
+        "abbr": "NyD",
+        "name": [
+            "Ny Demokrati",
+            "New Democracy"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 1999
+            }
+        ]
+    },
+    "1609": {
+        "country": "Sweden",
+        "abbr": "JL",
+        "name": [
+            "Junilistan",
+            "June List"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2006
+            }
+        ]
+    },
+    "1610": {
+        "country": "Sweden",
+        "abbr": "SD",
+        "name": [
+            "Sverigedemokraterna",
+            "Sweden Democrats"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2010
+            }
+        ]
+    },
+    "1611": {
+        "country": "Sweden",
+        "abbr": "PIRAT",
+        "name": [
+            "Piratpartiet",
+            "Pirate Party"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2010
+            }
+        ]
+    },
+    "1612": {
+        "country": "Sweden",
+        "abbr": "FI",
+        "name": [
+            "Feministiskt initiativ",
+            "Feminist Initative"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2001": {
+        "country": "Bulgaria",
+        "abbr": "NDSV",
+        "name": [
+            "Nacionalno Dvi'enie Simeon Vtori",
+            "National Movement Simeon II"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2002": {
+        "country": "Bulgaria",
+        "abbr": "ODS/SDS",
+        "name": [
+            "Obedineni Demokraticni Sili",
+            "United Democratic Forces",
+            "Sayuz na demokratichnite sili",
+            "Union of Democratic Forces"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2003": {
+        "country": "Bulgaria",
+        "abbr": "KzB/BSP",
+        "name": [
+            "Koalicija za B'algarija",
+            "Coalition for Bulgaria",
+            "BSP-Lyava Bulgaria",
+            "BSP-Left Bulgaria",
+            "Balgarska sotsialisticheska partiya",
+            "Bulgarian Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2004": {
+        "country": "Bulgaria",
+        "abbr": "DPS/APS",
+        "name": [
+            "Dvi'enie za Prava i Svobodi",
+            "Movement for Rights and Freedoms",
+            "Alians za prava i svobodi",
+            "Alliance for Rights and Freedoms"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2005": {
+        "country": "Bulgaria",
+        "abbr": "G-VMRO/VMRO-BND",
+        "name": [
+            "Dvi'enie Gergiovden",
+            "Gergiovden-VMRO",
+            "VMRO-Bulgarsko Natsionalno Dvizhenie",
+            "VMRO-Bulgarian National Movement"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2006": {
+        "country": "Bulgaria",
+        "abbr": "KSII",
+        "name": [
+            "Koalicija Simeon II",
+            "Coalition Simeon II"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2002
+            }
+        ]
+    },
+    "2007": {
+        "country": "Bulgaria",
+        "abbr": "NOA/Ataka",
+        "name": [
+            "Nacionalno Obedinenie Ataka",
+            "National Union Attack",
+            "Ataka",
+            "Attack"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2006
+            }
+        ]
+    },
+    "2008": {
+        "country": "Bulgaria",
+        "abbr": "DSB",
+        "name": [
+            "Demokrati za Silna B'algarija",
+            "Democrats for a Strong Bulgaria"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2006
+            }
+        ]
+    },
+    "2009": {
+        "country": "Bulgaria",
+        "abbr": "BNS",
+        "name": [
+            "B'algarski Naroden S'ajuz",
+            "Bulgarian People's Union"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2006
+            }
+        ]
+    },
+    "2010": {
+        "country": "Bulgaria",
+        "abbr": "GERB",
+        "name": [
+            "Grazhdani za evropeysko razvitie na Balgariya",
+            "Citizens for European Development of Bulgaria"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2010
+            }
+        ]
+    },
+    "2011": {
+        "country": "Bulgaria",
+        "abbr": "L",
+        "name": [
+            "Lider"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2010
+            }
+        ]
+    },
+    "2012": {
+        "country": "Bulgaria",
+        "abbr": "RZS",
+        "name": [
+            "Red, zakonnost i spravedlivost",
+            "Order, Lawfullness, Justice"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2010
+            }
+        ]
+    },
+    "2013": {
+        "country": "Bulgaria",
+        "abbr": "DBG",
+        "name": [
+            "Dvizhenie Bulgaria na grazhdanite",
+            "Bulgaria for Citizens Movement"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2014": {
+        "country": "Bulgaria",
+        "abbr": "NFSB",
+        "name": [
+            "Natsionalen Front za Spasenie na Bulgaria",
+            "National Front for the Salvation of Bulgaria"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "2015": {
+        "country": "Bulgaria",
+        "abbr": "BBT",
+        "name": [
+            "Bulgaria bez Tsenzura",
+            "Bulgaria without Censorship"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2016": {
+        "country": "Bulgaria",
+        "abbr": "ABV",
+        "name": [
+            "Alternativa za Balgarsko Vazrazhdane",
+            "Alternative for Bulgarian Revival"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "2017": {
+        "country": "Bulgaria",
+        "abbr": "Volya",
+        "name": [
+            "Volya",
+            "Will"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "2018": {
+        "country": "Bulgaria",
+        "abbr": "DB",
+        "name": [
+            "Da Bulgaria",
+            "Yes, Bulgaria!"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2019
+            }
+        ]
+    },
+    "2019": {
+        "country": "Bulgaria",
+        "abbr": "ST/ITN",
+        "name": [
+            "Slavi Trifonov",
+            "Party of Slavi Trifonov",
+            "Ima takav narod",
+            "There is Such a People"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2020": {
+        "country": "Bulgaria",
+        "abbr": "Vaz",
+        "name": [
+            "Vazrazhdane",
+            "Revival"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2021": {
+        "country": "Bulgaria",
+        "abbr": "PP",
+        "name": [
+            "Prodalzhavame promyanata",
+            "We Continue the Change"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2024
+            }
+        ]
+    },
+    "2022": {
+        "country": "Bulgaria",
+        "abbr": "DPS-Novo",
+        "name": [
+            "DPS - Novo nachalo",
+            "DPS - A New Beginning"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "2023": {
+        "country": "Bulgaria",
+        "abbr": "MECh",
+        "name": [
+            "Moral, Edinstvo, Chest",
+            "Morality, Unity, Honour"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2024": {
+        "country": "Bulgaria",
+        "abbr": "Vel",
+        "name": [
+            "Velichie",
+            "Greatness"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2101": {
+        "country": "Czech Republic",
+        "abbr": "CSSD",
+        "name": [
+            "Česká strana sociálne demokratická",
+            "Czech Social Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2102": {
+        "country": "Czech Republic",
+        "abbr": "ODS",
+        "name": [
+            "Obcanská Demokratická Strana",
+            "Civic Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2103": {
+        "country": "Czech Republic",
+        "abbr": "KSCM",
+        "name": [
+            "Komunistická strana Cech a Moravy",
+            "Communist Party of Bohemia and Moravia"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2002
+            }
+        ]
+    },
+    "2104": {
+        "country": "Czech Republic",
+        "abbr": "KDU-CSL",
+        "name": [
+            "Kresťanská demokratická unie-Ceskoslovenská strana lidová",
+            "Christian Democratic Union-Czechoslovak People's Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2105": {
+        "country": "Czech Republic",
+        "abbr": "US-DEU",
+        "name": [
+            "Unie Svobody-Demokratická unie",
+            "Freedom Union-Democratic Union"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2106": {
+        "country": "Czech Republic",
+        "abbr": "SNK-ED",
+        "name": [
+            "Sdružení nezávislých kandidátu-Evropští demokraté",
+            "Union of Independents-European Democrats"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2006
+            }
+        ]
+    },
+    "2107": {
+        "country": "Czech Republic",
+        "abbr": "SZ",
+        "name": [
+            "Strana zelených",
+            "Green Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2006
+            }
+        ]
+    },
+    "2108": {
+        "country": "Czech Republic",
+        "abbr": "Nezavisli",
+        "name": [
+            "Nezávislí",
+            "Independents"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2006
+            }
+        ]
+    },
+    "2109": {
+        "country": "Czech Republic",
+        "abbr": "TOP09",
+        "name": [
+            "Top09; Tradice Odpovednost Prosperita 09 Top09",
+            "Tradition Responsibility Prosperity 09"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2010
+            }
+        ]
+    },
+    "2110": {
+        "country": "Czech Republic",
+        "abbr": "VV",
+        "name": [
+            "Veci Verejné",
+            "Public Affairs"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "2111": {
+        "country": "Czech Republic",
+        "abbr": "ANO2011",
+        "name": [
+            "ANO 2011, Akce nespokojených obcanů",
+            "ANO 2011, Action of Dissatisfied Citizens"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2112": {
+        "country": "Czech Republic",
+        "abbr": "USVIT",
+        "name": [
+            "Úsvit p˘rímé demokracie",
+            "Dawn of Direct Democracy"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2014
+            }
+        ]
+    },
+    "2113": {
+        "country": "Czech Republic",
+        "abbr": "SVOBODNI",
+        "name": [
+            "Strana svobodných obcanů",
+            "Party of Free Citizens"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "2114": {
+        "country": "Czech Republic",
+        "abbr": "Pirates",
+        "name": [
+            "Ceska piratska strana",
+            "Czech Pirate Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2024
+            }
+        ]
+    },
+    "2115": {
+        "country": "Czech Republic",
+        "abbr": "SPD",
+        "name": [
+            "Svoboda a prímá demokracie Tomio Okamura",
+            "Freedom and Direct Democracy Tomio Okamura"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "2116": {
+        "country": "Czech Republic",
+        "abbr": "STAN",
+        "name": [
+            "Starostové a nezávislí",
+            "Mayors and Independents"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2117": {
+        "country": "Czech Republic",
+        "abbr": "Přisaha",
+        "name": [
+            "Přísaha",
+            "Oath"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2024
+            }
+        ]
+    },
+    "2118": {
+        "country": "Czech Republic",
+        "abbr": "MOTO",
+        "name": [
+            "Motoristé sobě",
+            "Motorists for Themselves"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2201": {
+        "country": "Estonia",
+        "abbr": "IRL",
+        "name": [
+            "Isamaa Erakond Isamaa ja Res Publica Liit",
+            "Isamaa Pro Patria & Res Publica Union",
+            "Fatherland"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2006
+            }
+        ]
+    },
+    "2202": {
+        "country": "Estonia",
+        "abbr": "EK",
+        "name": [
+            "Eesti Keskerakond",
+            "Estonian Center Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2006
+            }
+        ]
+    },
+    "2203": {
+        "country": "Estonia",
+        "abbr": "ER",
+        "name": [
+            "Eesti Reformierakond",
+            "Estonian Reform Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2006
+            }
+        ]
+    },
+    "2204": {
+        "country": "Estonia",
+        "abbr": "SDE",
+        "name": [
+            "Sotsiaaldemokraatlik Erakond",
+            "Social Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2006
+            }
+        ]
+    },
+    "2205": {
+        "country": "Estonia",
+        "abbr": "KP",
+        "name": [
+            "Eestimaa ühendatud Rahvapartei",
+            "Constitution Party"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2006
+            }
+        ]
+    },
+    "2206": {
+        "country": "Estonia",
+        "abbr": "ERL",
+        "name": [
+            "Eestimaa Rahvaliit",
+            "Estonian People's Union"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 2006
+            }
+        ]
+    },
+    "2207": {
+        "country": "Estonia",
+        "abbr": "EER",
+        "name": [
+            "Erakond Eestimaa Rohelised",
+            "Estonian Greens"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2010
+            }
+        ]
+    },
+    "2208": {
+        "country": "Estonia",
+        "abbr": "EVE",
+        "name": [
+            "Eesti Vabaerakond",
+            "Estonian Free Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "2209": {
+        "country": "Estonia",
+        "abbr": "EKRE",
+        "name": [
+            "Eesti Konservatiivne Rahvaerakond",
+            "Conservative People's Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "2210": {
+        "country": "Estonia",
+        "abbr": "E200",
+        "name": [
+            "Erakond Eesti 200",
+            "Estonia 200"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2211": {
+        "country": "Estonia",
+        "abbr": "Parempoolsed",
+        "name": [
+            "Parempoolsed",
+            "The Right"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "2212": {
+        "country": "Estonia",
+        "abbr": "Vasakliit",
+        "name": [
+            "Vasakliit",
+            "Left Alliance"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2024
+            }
+        ]
+    },
+    "2301": {
+        "country": "Hungary",
+        "abbr": "MSzP",
+        "name": [
+            "Magyar Szocialista Párt",
+            "Hungarian Socialist Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2302": {
+        "country": "Hungary",
+        "abbr": "Fidesz-M/Fidesz-KDNP",
+        "name": [
+            "Fidesz—Magyar Polgári Szövetség",
+            "Fidesz—Hungarian Civic Union",
+            "Fidesz-Magyar Polgári Szövetség-Keresztény Demokrata Néppárt",
+            "Fidesz—Kereszténydemokrata Néppárt",
+            "Fidesz—Christian Democratic People’s Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "2303": {
+        "country": "Hungary",
+        "abbr": "MDF",
+        "name": [
+            "Magyar Demokrata Fórum",
+            "Hungarian Democratic Forum"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2304": {
+        "country": "Hungary",
+        "abbr": "SzDSz",
+        "name": [
+            "Szabad Demokraták Szövetsége",
+            "Alliance of Free Democrats"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2305": {
+        "country": "Hungary",
+        "abbr": "MIEP",
+        "name": [
+            "Magyar Igazság és élet Pártja",
+            "Hungarian Justice and Life Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2306": {
+        "country": "Hungary",
+        "abbr": "CP",
+        "name": [
+            "Centrumpárt",
+            "Centre Party"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2002
+            }
+        ]
+    },
+    "2307": {
+        "country": "Hungary",
+        "abbr": "KDNP",
+        "name": [
+            "Kereszténydemokrata Néppárt",
+            "Christian Democratic People’s Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2006
+            }
+        ]
+    },
+    "2308": {
+        "country": "Hungary",
+        "abbr": "JOBBIK",
+        "name": [
+            "Jobbik Magyarorszagert Mozgalom",
+            "Jobbik—Movement for a Better Hungary",
+            "Jobbik Magyarországért Mozgalom"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2010
+            }
+        ]
+    },
+    "2309": {
+        "country": "Hungary",
+        "abbr": "LMP-MZP",
+        "name": [
+            "Lehet Más a Politika-Magyarország Zöld Pártja",
+            "Politics can be Different-Hungary’s Green Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2010
+            }
+        ]
+    },
+    "2310": {
+        "country": "Hungary",
+        "abbr": "E14",
+        "name": [
+            "Együtt 2014",
+            "Együtt 2019",
+            "Together 2014",
+            "Together 2019"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2311": {
+        "country": "Hungary",
+        "abbr": "DK",
+        "name": [
+            "Demokratikus Koalíció",
+            "Democratic Coalition"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "2314": {
+        "country": "Hungary",
+        "abbr": "MM",
+        "name": [
+            "Momentum Mozgalom",
+            "Momentum Movement"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "2315": {
+        "country": "Hungary",
+        "abbr": "MKKP",
+        "name": [
+            "Magyar Kétfarkú Kutya Párt",
+            "Hungarian Two Tailed Dog Party"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2024
+            }
+        ]
+    },
+    "2316": {
+        "country": "Hungary",
+        "abbr": "MHM",
+        "name": [
+            "Mi Hazánk Mozgalom",
+            "Our Homeland Movement"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2318": {
+        "country": "Hungary",
+        "abbr": "Tisza",
+        "name": [
+            "Tisztelet és Szabadság Pártja",
+            "Tisza – Respect and Freedom Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2024
+            }
+        ]
+    },
+    "2401": {
+        "country": "Latvia",
+        "abbr": "JL",
+        "name": [
+            "Jaunais Laikas",
+            "New Era Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2402": {
+        "country": "Latvia",
+        "abbr": "PCTVL/LKS",
+        "name": [
+            "Par Cilveka Tiesibam Vienota Latvija",
+            "For Human Rights in United Latvia",
+            "Latvijas Krievu savieniba",
+            "Latvian Russian Union"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2002
+            }
+        ]
+    },
+    "2403": {
+        "country": "Latvia",
+        "abbr": "TP",
+        "name": [
+            "Tautas Partija",
+            "People’s Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2404": {
+        "country": "Latvia",
+        "abbr": "LPP",
+        "name": [
+            "Latvijas Pirma Partija",
+            "Lativa’s First Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2405": {
+        "country": "Latvia",
+        "abbr": "ZZS",
+        "name": [
+            "Zalo un Zemnieku Savieniba",
+            "Union of Greens and Farmers"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2002
+            }
+        ]
+    },
+    "2406": {
+        "country": "Latvia",
+        "abbr": "TB-LNNK, NA",
+        "name": [
+            "Nacionala apvieniba “Visu Latvijai!”",
+            "National Alliance “All For Latvia!”",
+            "Tevzemei un Brıvıbai/LNNK",
+            "For Fatherland and Freedom/LNNK"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2407": {
+        "country": "Latvia",
+        "abbr": "LC",
+        "name": [
+            "Latvijas Celš",
+            "Latvia’s Way",
+            "Savienība \"Latvijas Celš\""
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2408": {
+        "country": "Latvia",
+        "abbr": "LSDSP",
+        "name": [
+            "Latvijas Socialdemokratiska Stradnieku Partija",
+            "Latvian Social Democratic Labour Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2410": {
+        "country": "Latvia",
+        "abbr": "SC/SDPS",
+        "name": [
+            "Saskanas Centrs",
+            "Harmony Centre",
+            "Socialdemokratiska Partija Saskana “Harmony”",
+            "Centre Social Democratic Party “Harmony”"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2006
+            }
+        ]
+    },
+    "2411": {
+        "country": "Latvia",
+        "abbr": "ZRP",
+        "name": [
+            "Zatlera Reform Partija Zatler’s",
+            "Reform Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2010
+            }
+        ]
+    },
+    "2412": {
+        "country": "Latvia",
+        "abbr": "V/Vienotiba",
+        "name": [
+            "Vienotiba",
+            "Jauna Vienotıba Unity",
+            "New Unity"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "2413": {
+        "country": "Latvia",
+        "abbr": "NSL",
+        "name": [
+            "No sirds Latvijai",
+            "For Latvia from the Heart"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "2414": {
+        "country": "Latvia",
+        "abbr": "LRA",
+        "name": [
+            "Latvijas Re´gionu apvieniba",
+            "Latvian Association of Regions"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2014
+            }
+        ]
+    },
+    "2415": {
+        "country": "Latvia",
+        "abbr": "KPV LV",
+        "name": [
+            "Kam pieder valsts?",
+            "Who owns the state?"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2019
+            }
+        ]
+    },
+    "2416": {
+        "country": "Latvia",
+        "abbr": "JKP",
+        "name": [
+            "Jauna konservatıva partija",
+            "New Conservative Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2417": {
+        "country": "Latvia",
+        "abbr": "AP!",
+        "name": [
+            "Attıstıbai/Par!",
+            "Development/For!"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2418": {
+        "country": "Latvia",
+        "abbr": "S!",
+        "name": [
+            "Stabilitatei!",
+            "For Stability!"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2024
+            }
+        ]
+    },
+    "2419": {
+        "country": "Latvia",
+        "abbr": "LPV",
+        "name": [
+            "Latvija pirmaja vieta",
+            "Latvia First"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2024
+            }
+        ]
+    },
+    "2420": {
+        "country": "Latvia",
+        "abbr": "Pro",
+        "name": [
+            "Progresıvie",
+            "The Progressives"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2024
+            }
+        ]
+    },
+    "2501": {
+        "country": "Lithuania",
+        "abbr": "LSDP",
+        "name": [
+            "Lietuvos socialdemokratu partija",
+            "Social Democratic Party of Lithuania",
+            "Lietuvos socialdemokratų partija"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2502": {
+        "country": "Lithuania",
+        "abbr": "NDP",
+        "name": [
+            "Naujosios demokratijos partija",
+            "New Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2503": {
+        "country": "Lithuania",
+        "abbr": "LRS",
+        "name": [
+            "Lietuvos rusu sąjunga",
+            "Lithuanian Russian Union"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2002
+            }
+        ]
+    },
+    "2504": {
+        "country": "Lithuania",
+        "abbr": "NS",
+        "name": [
+            "Naujoji sąjunga (socialliberalai)",
+            "New Union (Social Liberals)"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2505": {
+        "country": "Lithuania",
+        "abbr": "LLS/LiCS",
+        "name": [
+            "Lietuvos liberalu sąjunga",
+            "Liberal Union of Lithuanian",
+            "Liberalu ir centro sąjunga",
+            "Liberal and Centre Union"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2506": {
+        "country": "Lithuania",
+        "abbr": "TS-LKD",
+        "name": [
+            "Tevynes sąjunga—Lietuvos krikščionys demokratai",
+            "Homeland Union—Lithuanian Christian Democrats",
+            "Tevynes sąjunga",
+            "Homeland Union"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2507": {
+        "country": "Lithuania",
+        "abbr": "LVP/LVLS/LVZS",
+        "name": [
+            "Lietuvos valstiečiu partija",
+            "Valstieciu ir Lithuanian Peasant Party",
+            "Naujosios demokratijos partiju sajungos",
+            "Lithuanian Peasant Popular Union",
+            "Lietuvos valstiečiu ir Žaliuju sąjunga",
+            "Lithuanian Peasant and Greens Union",
+            "Lietuvos valstiečiu sąjunga",
+            "Lithuanian Peasant Union"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 2002
+            }
+        ]
+    },
+    "2508": {
+        "country": "Lithuania",
+        "abbr": "LKDP",
+        "name": [
+            "Lietuvos krikščionys demokratai",
+            "Lithuanian Christian Democrats"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2509": {
+        "country": "Lithuania",
+        "abbr": "LCS",
+        "name": [
+            "Lietuvos centro sąjunga",
+            "Center Union of Lithuania"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2510": {
+        "country": "Lithuania",
+        "abbr": "NKS",
+        "name": [
+            "Nuosaikiuju konservatoriu sąjunga",
+            "Moderate Conservative Union"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2511": {
+        "country": "Lithuania",
+        "abbr": "LLRA",
+        "name": [
+            "Lietuvos lenku rinkimu akcija",
+            "Electoral Action of Lithuania’s Poles"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2002
+            }
+        ]
+    },
+    "2512": {
+        "country": "Lithuania",
+        "abbr": "LLS",
+        "name": [
+            "Lietuvos laisves sąjunga",
+            "Lithuanian Liberty Union"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2513": {
+        "country": "Lithuania",
+        "abbr": "JL-PKS",
+        "name": [
+            "Lietuviu Nacionaline Partija—“Jaunoji Lietuva”",
+            "Young Lithuania—New Nationalists and Political Prisoner’s Union"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2514": {
+        "country": "Lithuania",
+        "abbr": "MKDS",
+        "name": [
+            "Moderniujui krikščioniu demokratu sąjunga",
+            "Modern Christian-Democratic Union"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2515": {
+        "country": "Lithuania",
+        "abbr": "TT",
+        "name": [
+            "Tvarka ir teisingumas",
+            "Order and Justice"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2006
+            }
+        ]
+    },
+    "2516": {
+        "country": "Lithuania",
+        "abbr": "DP",
+        "name": [
+            "Darbo partija",
+            "Labour Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2006
+            }
+        ]
+    },
+    "2517": {
+        "country": "Lithuania",
+        "abbr": "TPP",
+        "name": [
+            "Tautos prisikelimo partija",
+            "National Resurrection Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2010
+            }
+        ]
+    },
+    "2518": {
+        "country": "Lithuania",
+        "abbr": "LRLS/LS",
+        "name": [
+            "Lietuvos Respublikos Liberalu Sąjudis",
+            "Liberals’ Movement of the Republic of Lithuania",
+            "Liberalu Sąjudis",
+            "Liberal Movement",
+            "Lietuvos Respublikos Liberalu Sąjudis",
+            "Liberal Movement of the Republic of Lithuania"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "2519": {
+        "country": "Lithuania",
+        "abbr": "FRONT",
+        "name": [
+            "Fronto Partija",
+            "Front Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2010
+            }
+        ]
+    },
+    "2520": {
+        "country": "Lithuania",
+        "abbr": "DK",
+        "name": [
+            "Drąsos Kelias",
+            "The Way of Courage"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2521": {
+        "country": "Lithuania",
+        "abbr": "LCP",
+        "name": [
+            "Lietuvos Centro Partija",
+            "Lithuanian Centre Party"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2019
+            }
+        ]
+    },
+    "2522": {
+        "country": "Lithuania",
+        "abbr": "LZP",
+        "name": [
+            "Lietuvos žalioji partija",
+            "Lithuanian Green Party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2019
+            }
+        ]
+    },
+    "2523": {
+        "country": "Lithuania",
+        "abbr": "VKM-AMT",
+        "name": [
+            "Visuomeninis rinkimu komitetas “Aušros Maldeikienes traukinys”",
+            "Public election committee “Aušra Maldeikienes Train”"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2019
+            }
+        ]
+    },
+    "2524": {
+        "country": "Lithuania",
+        "abbr": "LP",
+        "name": [
+            "Laisves partija",
+            "Freedom Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "2525": {
+        "country": "Lithuania",
+        "abbr": "PPNA",
+        "name": [
+            "Nemuno aušra",
+            "Dawn of Nemunas"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2024
+            }
+        ]
+    },
+    "2526": {
+        "country": "Lithuania",
+        "abbr": "DSVL",
+        "name": [
+            "Demokratu sąjunga „Vardan Lietuvos“",
+            "Union of Democrats \"For Lithuania\""
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2024
+            }
+        ]
+    },
+    "2527": {
+        "country": "Lithuania",
+        "abbr": "NS",
+        "name": [
+            "Nacionalinis susivienijimas",
+            "National Alliance"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2528": {
+        "country": "Lithuania",
+        "abbr": "PLT",
+        "name": [
+            "Laisve ir Teisingumas"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "2601": {
+        "country": "Poland",
+        "abbr": "SLD/NL",
+        "name": [
+            "Sojusz Lewicy Demokratycznej",
+            "Alliance of Democratic Left",
+            "Democratic Left Alliance",
+            "Nowa Lewica",
+            "New Left"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2602": {
+        "country": "Poland",
+        "abbr": "UP",
+        "name": [
+            "Unia Pracy",
+            "Union of Labour"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2603": {
+        "country": "Poland",
+        "abbr": "PO",
+        "name": [
+            "Platforma Obywatelska",
+            "Civic Platform"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2604": {
+        "country": "Poland",
+        "abbr": "S",
+        "name": [
+            "Samoobrona RP",
+            "Self Defense of the Polish Republic"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 2002
+            }
+        ]
+    },
+    "2605": {
+        "country": "Poland",
+        "abbr": "PiS",
+        "name": [
+            "Prawo i Sprawiedliwość",
+            "Law and Justice Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2606": {
+        "country": "Poland",
+        "abbr": "PSL",
+        "name": [
+            "Polskie Stronnictwo Ludowe",
+            "Polish People's Party"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 2002
+            }
+        ]
+    },
+    "2607": {
+        "country": "Poland",
+        "abbr": "LPR",
+        "name": [
+            "Liga Polskich Rodzin",
+            "League of Polish Families"
+        ],
+        "ches": [
+            {
+                "family": "confessional",
+                "since": 2002
+            }
+        ]
+    },
+    "2608": {
+        "country": "Poland",
+        "abbr": "AWSP",
+        "name": [
+            "Koalicja Akcja Wyborcza Solidarność Prawicy",
+            "Coalition Electoral Action Solidarity of the Right"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2609": {
+        "country": "Poland",
+        "abbr": "UW/PD",
+        "name": [
+            "Unia Wolności",
+            "Freedom Union",
+            "Partia Demokratyczna",
+            "Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2611": {
+        "country": "Poland",
+        "abbr": "SDPL",
+        "name": [
+            "Socjaldemokracja Polska",
+            "Social Democracy of Poland"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2006
+            }
+        ]
+    },
+    "2612": {
+        "country": "Poland",
+        "abbr": "SD",
+        "name": [
+            "Stronnictwo Demokratyczne",
+            "Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "2613": {
+        "country": "Poland",
+        "abbr": "RP",
+        "name": [
+            "Twój Ruch (Ruch Palikota)",
+            "Your Movement (Palikot's Movement)"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "2614": {
+        "country": "Poland",
+        "abbr": "KNP",
+        "name": [
+            "Kongres Nowej Prawicy",
+            "Congress of the New Right"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "2615": {
+        "country": "Poland",
+        "abbr": "PR",
+        "name": [
+            "Polska Razem",
+            "Poland Together"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "2616": {
+        "country": "Poland",
+        "abbr": "SP",
+        "name": [
+            "Solidarna Polska",
+            "United Poland"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "2617": {
+        "country": "Poland",
+        "abbr": "Kukiz",
+        "name": [
+            "Kukiz '15",
+            "Kukiz '15"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2019
+            }
+        ]
+    },
+    "2618": {
+        "country": "Poland",
+        "abbr": "Nowo",
+        "name": [
+            "Nowoczesna",
+            "Modern"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2619": {
+        "country": "Poland",
+        "abbr": "Konfederacia",
+        "name": [
+            "Konfederacja Wolność i Niepodległość",
+            "Confederation Liberty and Independence"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "2620": {
+        "country": "Poland",
+        "abbr": "Razem",
+        "name": [
+            "Lewica Razem",
+            "Razem",
+            "Left Together",
+            "Together"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2019
+            }
+        ]
+    },
+    "2621": {
+        "country": "Poland",
+        "abbr": "Wiosna",
+        "name": [
+            "Wiosna",
+            "Spring"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2019
+            }
+        ]
+    },
+    "2701": {
+        "country": "Romania",
+        "abbr": "PSD",
+        "name": [
+            "Partidul Social Democrat",
+            "Social Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2702": {
+        "country": "Romania",
+        "abbr": "PUR/PC",
+        "name": [
+            "Partidul Umanist din Romania",
+            "Romanian Humanist Party",
+            "Partidul Conservator",
+            "Conservative Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2703": {
+        "country": "Romania",
+        "abbr": "PRM",
+        "name": [
+            "Partidul România Mare",
+            "Party of Great Romania"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2704": {
+        "country": "Romania",
+        "abbr": "PDL",
+        "name": [
+            "Partidul Democrat",
+            "Partidul Democrat-Liberal",
+            "Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2705": {
+        "country": "Romania",
+        "abbr": "PNL",
+        "name": [
+            "Partidul Naţional Liberal",
+            "National Liberal Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2706": {
+        "country": "Romania",
+        "abbr": "UDMR",
+        "name": [
+            "Uniunea Democrata Maghiara din România",
+            "Hungarian Democratic Union of Romania"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2002
+            }
+        ]
+    },
+    "2707": {
+        "country": "Romania",
+        "abbr": "CDR 2000",
+        "name": [
+            "Convenţia Democrata Româna",
+            "Romanian Democratic Convention 2000"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2708": {
+        "country": "Romania",
+        "abbr": "FDGR",
+        "name": [
+            "Forumul Democrat al Germanilor din România",
+            "Democratic Forum of Germans of Romania"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2006
+            }
+        ]
+    },
+    "2709": {
+        "country": "Romania",
+        "abbr": "UNPR",
+        "name": [
+            "Uniunea Nationala pentru Progresul României",
+            "National Union for the Progress of Romania"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "2710": {
+        "country": "Romania",
+        "abbr": "PP-DD",
+        "name": [
+            "Partidul Poporului—Dan Diaconescu",
+            "People’s Party—Dan Diaconescu"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2711": {
+        "country": "Romania",
+        "abbr": "PMP",
+        "name": [
+            "Partidul Miscarea Populara",
+            "People’s Movement Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2014
+            }
+        ]
+    },
+    "2712": {
+        "country": "Romania",
+        "abbr": "PLR/ALDE",
+        "name": [
+            "Partidul Liberal Reformator",
+            "Liberal Reformist Party",
+            "Alianta Liberalilor şi Democratilor"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "2713": {
+        "country": "Romania",
+        "abbr": "USR",
+        "name": [
+            "Uniunea Salvati România",
+            "Uniunea Salvați România",
+            "Save Romania Union"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2714": {
+        "country": "Romania",
+        "abbr": "PRO",
+        "name": [
+            "PRO România",
+            "PRO Romania"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2019
+            }
+        ]
+    },
+    "2715": {
+        "country": "Romania",
+        "abbr": "AUR",
+        "name": [
+            "Alianta pentru Unirea Românilor",
+            "Alliance for the Union of Romanians",
+            "Alianța pentru Unirea Românilor"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2716": {
+        "country": "Romania",
+        "abbr": "SOS RO",
+        "name": [
+            "SOS România",
+            "S.O.S. Romania"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2717": {
+        "country": "Romania",
+        "abbr": "POT",
+        "name": [
+            "Partidul Oamenilor Tineri",
+            "Party of Young People"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2802": {
+        "country": "Slovakia",
+        "abbr": "SDKU/SDKU-DS",
+        "name": [
+            "Slovenská demokratická a krestanská únia",
+            "Slovak Democratic and Christian Union",
+            "Slovenská demokratická a krestanská unia-Demokratická strana",
+            "Slovak Democratic and Christian Union-Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2803": {
+        "country": "Slovakia",
+        "abbr": "Smer/Smer-SD",
+        "name": [
+            "Strana Smer-Tretia Cesta",
+            "Direction-Third Way",
+            "Smer-sociálna demokracia",
+            "Direction-Social Democracy"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2804": {
+        "country": "Slovakia",
+        "abbr": "SMK/SMK-MKP",
+        "name": [
+            "Strana madarskej koalície-Magyar",
+            "Party of the Hungarian Coalition",
+            "Strana mad'arskej koalície - Magyar Koalíció Pártja",
+            "Koalíció Pártja",
+            "Hungarian Coalition"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2002
+            }
+        ]
+    },
+    "2805": {
+        "country": "Slovakia",
+        "abbr": "KDH",
+        "name": [
+            "Kresťanskodemokratické hnutie",
+            "Christian Democratic Movement"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2806": {
+        "country": "Slovakia",
+        "abbr": "ANO",
+        "name": [
+            "Aliancia Nového Občana",
+            "Alliance for a New Citizen"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2807": {
+        "country": "Slovakia",
+        "abbr": "KSS",
+        "name": [
+            "Komunistická strana",
+            "Slovenska Communist Party of Slovakia"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2002
+            }
+        ]
+    },
+    "2808": {
+        "country": "Slovakia",
+        "abbr": "PSNS",
+        "name": [
+            "Pravá Slovenská národná strana",
+            "Right Slovak National Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2809": {
+        "country": "Slovakia",
+        "abbr": "SNS",
+        "name": [
+            "Slovenská národná strana",
+            "Slovak National Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2810": {
+        "country": "Slovakia",
+        "abbr": "HZD",
+        "name": [
+            "Hnutie za demokraciu",
+            "Hnutie za demokratické Slovensko",
+            "Movement for Democracy"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2002
+            }
+        ]
+    },
+    "2811": {
+        "country": "Slovakia",
+        "abbr": "SF",
+        "name": [
+            "Slobodné fórum",
+            "Free Forum"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2006
+            }
+        ]
+    },
+    "2812": {
+        "country": "Slovakia",
+        "abbr": "SaS",
+        "name": [
+            "Sloboda a Solidarita",
+            "Freedom and Solidarity"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "2813": {
+        "country": "Slovakia",
+        "abbr": "Most",
+        "name": [
+            "Most-Hid",
+            "Bridge"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2010
+            }
+        ]
+    },
+    "2814": {
+        "country": "Slovakia",
+        "abbr": "OLaNO",
+        "name": [
+            "Obyčajní Ľudia  a nezávislé osobnosti",
+            "Ordinary People and Independent Personalities"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "2815": {
+        "country": "Slovakia",
+        "abbr": "NOVA",
+        "name": [
+            "Nová Väčšina",
+            "New Majority"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "2816": {
+        "country": "Slovakia",
+        "abbr": "Siet",
+        "name": [
+            "Sieť",
+            "Net / Network"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2817": {
+        "country": "Slovakia",
+        "abbr": "LSNS",
+        "name": [
+            "Ĺudová strana Naše Slovensko (Marian Kotleba)",
+            "People's Party-Our Slovakia"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "2818": {
+        "country": "Slovakia",
+        "abbr": "Sme",
+        "name": [
+            "Rodina Sme Rodina-Boris Kollár",
+            "We are family-Boris Kollar"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    },
+    "2819": {
+        "country": "Slovakia",
+        "abbr": "PS",
+        "name": [
+            "Progresívne Slovensko",
+            "Progressive Slovakia"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2820": {
+        "country": "Slovakia",
+        "abbr": "SPOLU",
+        "name": [
+            "SPOLU-občianska demokracia",
+            "TOGETHER-Civic Democracy"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2821": {
+        "country": "Slovakia",
+        "abbr": "Za Ludi",
+        "name": [
+            "Za Ĺudí (Andrej Kiska)",
+            "For the People"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2822": {
+        "country": "Slovakia",
+        "abbr": "Aliancia",
+        "name": [
+            "Aliancia - Szövetség",
+            "Alliance"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2024
+            }
+        ]
+    },
+    "2823": {
+        "country": "Slovakia",
+        "abbr": "Hlas",
+        "name": [
+            "Hlas - sociálna demokracia",
+            "Voice - Social Democracy"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2024
+            }
+        ]
+    },
+    "2824": {
+        "country": "Slovakia",
+        "abbr": "Republika",
+        "name": [
+            "Hnutie Republika",
+            "Republic Movement"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2901": {
+        "country": "Slovenia",
+        "abbr": "LDS",
+        "name": [
+            "Liberalna demoracija Slovenije",
+            "Liberal Democracy of Slovenia"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2002
+            }
+        ]
+    },
+    "2902": {
+        "country": "Slovenia",
+        "abbr": "SDS",
+        "name": [
+            "Socialdemokratska stranka Slovenije",
+            "Social Democratic Party of Slovenia",
+            "Slovenska demokratska stranka",
+            "Slovenian Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2002
+            }
+        ]
+    },
+    "2903": {
+        "country": "Slovenia",
+        "abbr": "ZLSD/SD",
+        "name": [
+            "Združena lista socialnih demokratov",
+            "United List of Social Democrats",
+            "Socialni Demokrati",
+            "Social Democrats"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2002
+            }
+        ]
+    },
+    "2904": {
+        "country": "Slovenia",
+        "abbr": "SLS-SKD/SLS",
+        "name": [
+            "Slovenska ljudska stranka",
+            "Slovenian People's Party-Slovenian",
+            "Christian Democrats",
+            "Slovenian People's Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2905": {
+        "country": "Slovenia",
+        "abbr": "NSI",
+        "name": [
+            "Nova Slovenija-Kršcanska ljudska stranka",
+            "New Slovenia-Christian People's Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2002
+            }
+        ]
+    },
+    "2906": {
+        "country": "Slovenia",
+        "abbr": "DeSUS",
+        "name": [
+            "Demokratična stranka upokojencev Slovenije",
+            "Democratic Party of Pensioners of Slovenia"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2002
+            }
+        ]
+    },
+    "2907": {
+        "country": "Slovenia",
+        "abbr": "SNS",
+        "name": [
+            "Slovenska nacionalna stranka",
+            "Slovenian National Party"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2002
+            }
+        ]
+    },
+    "2908": {
+        "country": "Slovenia",
+        "abbr": "SMS",
+        "name": [
+            "Stranka Mladih Slovenije",
+            "Party of the Slovenia Youth"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2002
+            }
+        ]
+    },
+    "2909": {
+        "country": "Slovenia",
+        "abbr": "AS",
+        "name": [
+            "Aktivna Slovenija",
+            "Active Slovenia"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2006
+            }
+        ]
+    },
+    "2910": {
+        "country": "Slovenia",
+        "abbr": "Zares",
+        "name": [
+            "Zares",
+            "Zares-For Real"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2010
+            }
+        ]
+    },
+    "2911": {
+        "country": "Slovenia",
+        "abbr": "SMC",
+        "name": [
+            "Stranka Mira Cerarja",
+            "Party of Miro Cerar"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "2912": {
+        "country": "Slovenia",
+        "abbr": "ZL/Levica",
+        "name": [
+            "Združena Levica",
+            "United Left",
+            "Levica",
+            "The Left"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "2913": {
+        "country": "Slovenia",
+        "abbr": "ZaAB/AB",
+        "name": [
+            "Zavezništvo Alenke Bratušek",
+            "Alliance of Alenka Bratušek",
+            "Stranka Alenke Bratušek",
+            "Party of Alenka Bratusek"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2014
+            }
+        ]
+    },
+    "2914": {
+        "country": "Slovenia",
+        "abbr": "PS",
+        "name": [
+            "Pozitivna Slovenija",
+            "Positive Slovenia"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "2915": {
+        "country": "Slovenia",
+        "abbr": "LMS",
+        "name": [
+            "Lista Marjana Šarca",
+            "List of Marjan Sarec"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "2916": {
+        "country": "Slovenia",
+        "abbr": "GS",
+        "name": [
+            "Gibanje Svoboda",
+            "Freedom Movement"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "2917": {
+        "country": "Slovenia",
+        "abbr": "Vesna",
+        "name": [
+            "VESNA - zelena stranka",
+            "Spring - Green party"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2024
+            }
+        ]
+    },
+    "2918": {
+        "country": "Slovenia",
+        "abbr": "Resni.ca",
+        "name": [
+            "Resni.ca",
+            "Tru.th"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "2919": {
+        "country": "Slovenia",
+        "abbr": "SLS",
+        "name": [
+            "Slovenska ljudska stranka",
+            "Slovenian People's Party"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2024
+            }
+        ]
+    },
+    "3101": {
+        "country": "Croatia",
+        "abbr": "HDZ",
+        "name": [
+            "Hrvatska Demokratska Zajednica",
+            "Croatian Democratic Union"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2014
+            }
+        ]
+    },
+    "3102": {
+        "country": "Croatia",
+        "abbr": "SDP",
+        "name": [
+            "Socialdemokratska Partija Hrvatske",
+            "Social Democratic Party of Croatia",
+            "Socijaldemokratska partija Hrvatske"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "3103": {
+        "country": "Croatia",
+        "abbr": "HSS",
+        "name": [
+            "Hrvatska Seljačka Stranka",
+            "Croatian Peasant Party"
+        ],
+        "ches": [
+            {
+                "family": "agrarian-center",
+                "since": 2014
+            }
+        ]
+    },
+    "3104": {
+        "country": "Croatia",
+        "abbr": "HSLS",
+        "name": [
+            "Hrvatska Socijalno Liberalna Stranka",
+            "Croatian Social Liberal Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "3105": {
+        "country": "Croatia",
+        "abbr": "HNS",
+        "name": [
+            "Hrvatska Narodna Stranka-Liberalni Demokrati",
+            "Croatian People's Party-Liberal Democrats"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "3106": {
+        "country": "Croatia",
+        "abbr": "IDS",
+        "name": [
+            "Istarski Demokratski Sabor",
+            "Istrian Democratic Assembly"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2014
+            }
+        ]
+    },
+    "3107": {
+        "country": "Croatia",
+        "abbr": "HDSSB",
+        "name": [
+            "Hrvatski Demokrtski Sabor Slavonije i Baranje",
+            "Croatian Democratic Assembly of Slavonija and Baranja"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2014
+            }
+        ]
+    },
+    "3108": {
+        "country": "Croatia",
+        "abbr": "HSU",
+        "name": [
+            "Hrvatska stranka umirovljenika",
+            "Croatian Party of Pensioners"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2019
+            }
+        ]
+    },
+    "3109": {
+        "country": "Croatia",
+        "abbr": "HSP",
+        "name": [
+            "Hrvatska Stranka Prava",
+            "Croatian Party of Rights"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "3110": {
+        "country": "Croatia",
+        "abbr": "SDSS",
+        "name": [
+            "Samostalna demokratska srpska stranka",
+            "Independent Democratic Serb Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2019
+            }
+        ]
+    },
+    "3112": {
+        "country": "Croatia",
+        "abbr": "HL-SR",
+        "name": [
+            "Hrvatski Laburisti-Stranka Rada",
+            "Croatian Labourists-Labour Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "3113": {
+        "country": "Croatia",
+        "abbr": "HSP-AS",
+        "name": [
+            "Hrvatska stranka prava dr. Ante Starčević",
+            "Croatian Party of Rights dr. Ante Starcevic"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "3114": {
+        "country": "Croatia",
+        "abbr": "ORaH",
+        "name": [
+            "Održivi Razvoj Hrvatske",
+            "Croatian Sustainable Development"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2014
+            }
+        ]
+    },
+    "3115": {
+        "country": "Croatia",
+        "abbr": "Most",
+        "name": [
+            "Most nezavisnih lista",
+            "Bridge of Independent Lists"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2019
+            }
+        ]
+    },
+    "3116": {
+        "country": "Croatia",
+        "abbr": "ZZ",
+        "name": [
+            "Živi zid",
+            "Human Shield"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2019
+            }
+        ]
+    },
+    "3117": {
+        "country": "Croatia",
+        "abbr": "MB 365",
+        "name": [
+            "Milan Bandić 365-Stranka rada i solidarnosti",
+            "Milan Bandic 365-The Party of Labour and Solidarity"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2019
+            }
+        ]
+    },
+    "3118": {
+        "country": "Croatia",
+        "abbr": "NS-R",
+        "name": [
+            "Narodna stranka-Reformisti",
+            "People's Party-Reformists"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2019
+            }
+        ]
+    },
+    "3119": {
+        "country": "Croatia",
+        "abbr": "HKS",
+        "name": [
+            "Hrvatska konzervativna stranka",
+            "Croatian Conservative Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2019
+            }
+        ]
+    },
+    "3120": {
+        "country": "Croatia",
+        "abbr": "M!",
+        "name": [
+            "Možemo!",
+            "We Can!"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2024
+            }
+        ]
+    },
+    "3121": {
+        "country": "Croatia",
+        "abbr": "Centar",
+        "name": [
+            "Centar",
+            "Centre"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2024
+            }
+        ]
+    },
+    "3122": {
+        "country": "Croatia",
+        "abbr": "DPS",
+        "name": [
+            "Domovinski pokret",
+            "Homeland Movement"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2024
+            }
+        ]
+    },
+    "3701": {
+        "country": "Malta",
+        "abbr": "PL",
+        "name": [
+            "Partit Laburista",
+            "Labour Party"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "3702": {
+        "country": "Malta",
+        "abbr": "PN",
+        "name": [
+            "Partit Nazzjonalista",
+            "Nationalist Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "3801": {
+        "country": "Luxembourg",
+        "abbr": "CSV",
+        "name": [
+            "Chrëschtlech Sozial Vollekspartei",
+            "Christian Social People's Party",
+            "Parti chrétien social luxembourgeois"
+        ],
+        "ches": [
+            {
+                "family": "christian-democratic",
+                "since": 2014
+            }
+        ]
+    },
+    "3802": {
+        "country": "Luxembourg",
+        "abbr": "Greng",
+        "name": [
+            "Déi Gréng",
+            "The Greens"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2014
+            }
+        ]
+    },
+    "3803": {
+        "country": "Luxembourg",
+        "abbr": "DP",
+        "name": [
+            "Demokratesch Partei",
+            "Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "liberal",
+                "since": 2014
+            }
+        ]
+    },
+    "3804": {
+        "country": "Luxembourg",
+        "abbr": "LSAP",
+        "name": [
+            "Lëtzebuerger Sozialistesch Aarbechterpartei",
+            "Luxembourg Socialist Workers' Party",
+            "Parti ouvrier socialiste luxembourgeois"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "3805": {
+        "country": "Luxembourg",
+        "abbr": "ADR",
+        "name": [
+            "Alternativ Demokratesch Reformpartei",
+            "Alternative Democratic Reform Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "3806": {
+        "country": "Luxembourg",
+        "abbr": "DL",
+        "name": [
+            "Déi Lénk",
+            "The Left"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2014
+            }
+        ]
+    },
+    "3807": {
+        "country": "Luxembourg",
+        "abbr": "PPLU",
+        "name": [
+            "Piratepartei Lëtzebuerg",
+            "Pirate Party Luxembourg"
+        ],
+        "ches": [
+            {
+                "family": "no-family",
+                "since": 2019
+            }
+        ]
+    },
+    "3808": {
+        "country": "Luxembourg",
+        "abbr": "KPL",
+        "name": [
+            "Kommunistesch Partei Lëtzebuerg",
+            "Communist Party of Luxembourg"
+        ]
+    },
+    "3809": {
+        "country": "Luxembourg",
+        "abbr": "PID",
+        "name": [
+            "Partei fir Integral Demokratie",
+            "Party for Full Democracy"
+        ]
+    },
+    "4001": {
+        "country": "Cyprus",
+        "abbr": "DISY",
+        "name": [
+            "Dimokratikós Sinagermós",
+            "Democratic Rally"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "4002": {
+        "country": "Cyprus",
+        "abbr": "Evroko",
+        "name": [
+            "Evropaiko Komma",
+            "European Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "4003": {
+        "country": "Cyprus",
+        "abbr": "AKEL",
+        "name": [
+            "Anorthotikó Kómma Ergazómenou Laoú",
+            "Progressive Party of Working People",
+            "Anorthotiko Komma Ergazomenou Laou - Aristera - Nees Dynameis"
+        ],
+        "ches": [
+            {
+                "family": "radical-left",
+                "since": 2014
+            }
+        ]
+    },
+    "4004": {
+        "country": "Cyprus",
+        "abbr": "DIKO",
+        "name": [
+            "Dimokratikó Kómma",
+            "Democratic Party"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2014
+            }
+        ]
+    },
+    "4005": {
+        "country": "Cyprus",
+        "abbr": "EDEK",
+        "name": [
+            "Kinima Sosialdimokraton EDEK",
+            "Movement for Social Democracy EDEK"
+        ],
+        "ches": [
+            {
+                "family": "socialist",
+                "since": 2014
+            }
+        ]
+    },
+    "4006": {
+        "country": "Cyprus",
+        "abbr": "KOP",
+        "name": [
+            "Kinima Oikologon Perivallontiston",
+            "Ecological and Environmental Movement"
+        ],
+        "ches": [
+            {
+                "family": "green",
+                "since": 2014
+            }
+        ]
+    },
+    "4007": {
+        "country": "Cyprus",
+        "abbr": "SYM",
+        "name": [
+            "Symmachía Politón",
+            "Citizens' Alliance"
+        ],
+        "ches": [
+            {
+                "family": "regionalist",
+                "since": 2019
+            }
+        ]
+    },
+    "4008": {
+        "country": "Cyprus",
+        "abbr": "Kinhma",
+        "name": [
+            "Kinima Allilengyu",
+            "Solidarity Movement"
+        ],
+        "ches": [
+            {
+                "family": "conservatives",
+                "since": 2019
+            }
+        ]
+    },
+    "4009": {
+        "country": "Cyprus",
+        "abbr": "ELAM",
+        "name": [
+            "Ethniko Laiko Metopo",
+            "National Popular Front"
+        ],
+        "ches": [
+            {
+                "family": "radical-right",
+                "since": 2019
+            }
+        ]
+    }
+}

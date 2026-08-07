@@ -1,0 +1,16 @@
+data/
+generated/
+.idea/
+.venv/
+.vscode/
+.git/
+**/__pycache__/
+**/wandb/
+**/tmp/
+**/notebooks/*.csv
+**/archive/
+*.svg
+*.png
+
+**/figures/
+**/results/
