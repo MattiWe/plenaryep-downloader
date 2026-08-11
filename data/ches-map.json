@@ -20,7 +20,10 @@
             "Vooruit, Socialistische Partij",
             "Onward, Socialist Party",
             "Socialistische Partij Anders",
-            "Socialist Party Differently"
+            "Socialist Party Differently",
+            "Socialistische Partij.Anders- Sociaal, Progressief, Internationaal, Regionaal, Integraal Democratisch, Toekomstgericht",
+            "Socialistische Partij",
+            "Vooruit"
         ],
         "ches": [
             {
@@ -49,7 +52,10 @@
             "Groen Agalev",
             "Groen! Agalev",
             "Green!",
-            "Anders gaan leven"
+            "Anders gaan leven",
+            "Groen!",
+            "Groen",
+            "Anders gaan arbeiden, leven en vrijen"
         ],
         "ches": [
             {
@@ -82,7 +88,8 @@
             "Open Vlaamse Liberalen en Democraten",
             "Open Flemish Liberals and Democrats",
             "Partij voor Vrijheid en Vooruitgang",
-            "Party of Liberty and Progress"
+            "Party of Liberty and Progress",
+            "Vlaamse liberalen en democraten"
         ],
         "ches": [
             {
@@ -115,7 +122,8 @@
             "Christelijke Volkspartij",
             "Christian People's Party",
             "Christen-Democratisch en Vlaams",
-            "Christian Democratic & Flemish"
+            "Christian Democratic & Flemish",
+            "Christen-Democratisch & Vlaams"
         ],
         "ches": [
             {
@@ -305,6 +313,7 @@
         "abbr": "KF",
         "name": [
             "Det Konservative Folksparti",
+            "Det Konservative Folkeparti",
             "Conservative People's Party"
         ],
         "ches": [
@@ -391,6 +400,7 @@
         "abbr": "EL",
         "name": [
             "Enhedslisten-De Rød-Grønne Unity",
+            "Enhedslisten",
             "List-Red/Green Alliance"
         ],
         "ches": [
@@ -590,6 +600,7 @@
         "name": [
             "Partei des Demokratischen Sozialismus",
             "Party of Democratic Socialism",
+            "Linkspartei.PDS",
             "Die Linkspartei",
             "Left Party",
             "Die Linke",
@@ -666,7 +677,9 @@
         "abbr": "DieTier",
         "name": [
             "Mensch Umwelt Tierschutz",
-            "Human Environment Animal Protection"
+            "Partei Mensch Umwelt Tierschutz",
+            "Human Environment Animal Protection",
+            "PARTEI MENSCH KLIMA TIERSCHUTZ"
         ],
         "ches": [
             {
@@ -680,7 +693,8 @@
         "abbr": "BSW",
         "name": [
             "Bündnis Sahra Wagenknecht",
-            "Sahra Wagenknecht Alliance"
+            "Sahra Wagenknecht Alliance",
+            "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit"
         ],
         "ches": [
             {
@@ -743,7 +757,8 @@
             "Coalition of the Left and Progress",
             "Synaspismó's Rizospastikís Aristerás",
             "Coalition of the Radical Left",
-            "Synaspismos tis Aristeras kai tis Proodou"
+            "Synaspismos tis Aristeras kai tis Proodou",
+            "Synaspismos tis Aristeras ton Kinimaton kai tis Oikologias"
         ],
         "ches": [
             {
@@ -899,7 +914,8 @@
         "abbr": "MR25",
         "name": [
             "Métopo Evropaikís Realistikís Anypakoís",
-            "European Realistic Disobedience Front [MeRa25]"
+            "European Realistic Disobedience Front [MeRa25]",
+            "MeRA25"
         ],
         "ches": [
             {
@@ -1241,6 +1257,8 @@
         "abbr": "EdP-V",
         "name": [
             "Europa de los Pueblos-Los Verdes",
+            "Europa de los Pueblos",
+            "Europa de los Pueblos-Verdes",
             "Europe of the Peoples-Greens"
         ],
         "ches": [
@@ -1269,6 +1287,7 @@
         "abbr": "EHB",
         "name": [
             "Euskal Herria Bildu",
+            "EH BILDU",
             "Amaiur Basque",
             "Country Unite/Gather",
             "Amaiur"
@@ -1342,8 +1361,10 @@
         "abbr": "PdeCat",
         "name": [
             "Partit Demócrata Europeu Catalá",
+            "Partit Demòcrata Europeu i Català",
             "Catalan European Democratic Party",
             "(Junts per Cataluyna)",
+            "Junts per Catalunya - Lliures per Europa",
             "(Together for Catalonia partner)"
         ],
         "ches": [
@@ -1446,7 +1467,8 @@
             "Europe Écologie Les Verts",
             "Les Verts-Europe-Ecologie",
             "Green Party",
-            "Europe Ecology-The Green"
+            "Europe Ecology-The Green",
+            "Europe Écologie"
         ],
         "ches": [
             {
@@ -1464,7 +1486,8 @@
             "Union pour un Mouvement Populaire",
             "Union for Popular Movement",
             "Les Républicains",
-            "The Republicans"
+            "The Republicans",
+            "Union pour la Majorité Présidentielle - Rassemblement pour la République"
         ],
         "ches": [
             {
@@ -1479,6 +1502,7 @@
         "name": [
             "Front National",
             "Rassemblement national",
+            "Front national/ Rassemblement Bleu Marine",
             "National Front",
             "National Rally"
         ],
@@ -1511,6 +1535,7 @@
         "abbr": "UDF/MoDem",
         "name": [
             "Union pour la Démocratie Française",
+            "Union pour la démocratie française - Parti républicain",
             "Union for French Democracy",
             "Mouvement Démocrate",
             "Democratic Movement"
@@ -1683,7 +1708,8 @@
             "Rennaissance",
             "Renaissance",
             "LaRépublique en Marche!",
-            "The Republic Onwards!"
+            "The Republic Onwards!",
+            "Liste Renaissance"
         ],
         "ches": [
             {
@@ -1783,6 +1809,7 @@
         "abbr": "Lab",
         "name": [
             "Páirti Lucht Oibre",
+            "Labour Party",
             "Labour"
         ],
         "ches": [
@@ -2038,7 +2065,8 @@
             "Union of Christian and Center Democrats",
             "Unione di Centro",
             "Union of the Centre",
-            "Unione dei Democratici cristiani e dei Democratici di Centro"
+            "Unione dei Democratici cristiani e dei Democratici di Centro",
+            "Unione democratico cristiana"
         ],
         "ches": [
             {
@@ -2206,7 +2234,8 @@
         "abbr": "SVP",
         "name": [
             "Südtiroler Volkspartei",
-            "South Tyrolean People's Party"
+            "South Tyrolean People's Party",
+            "Uniti nell'Ulivo-Südtiroler Volkspartei"
         ],
         "ches": [
             {
@@ -2220,6 +2249,8 @@
         "abbr": "IdV",
         "name": [
             "Di Pietro-Italia dei Valori",
+            "Italia dei Valori",
+            "Italia dei Valori - Di Pietro-Occhetto",
             "Italia dei Valori - Lista Di Pietro",
             "Italy of Values"
         ],
@@ -2279,7 +2310,8 @@
         "abbr": "NPSI",
         "name": [
             "Nuovo Partito Socialista Italiano",
-            "New Italian Socialist Party"
+            "New Italian Socialist Party",
+            "Partito Socialista Nuovo PSI"
         ],
         "ches": [
             {
@@ -2398,6 +2430,8 @@
         "abbr": "FDL",
         "name": [
             "Fratelli d'Italia",
+            "Fratelli d'Italia - Alleanza Nazionale",
+            "Fratelli d'Italia - Centrodestra Nazionale",
             "Brothers of Italy"
         ],
         "ches": [
@@ -2469,6 +2503,8 @@
         "abbr": "A-IV",
         "name": [
             "Azione-Italia Viva",
+            "Italia Viva",
+            "Italia Viva – Il Centro",
             "Action-Italy Alive"
         ],
         "ches": [
@@ -2512,7 +2548,8 @@
         "abbr": "PvdA",
         "name": [
             "Partij van de Arbeid",
-            "Labour Party"
+            "Labour Party",
+            "GroenLinks-PvdA"
         ],
         "ches": [
             {
@@ -2568,7 +2605,8 @@
         "abbr": "SGP",
         "name": [
             "Staatkundig Gereformeerde Partij",
-            "Reformed Political Party"
+            "Reformed Political Party",
+            "Staatkundig Gereformeerde Partij - Gereformeerd Politiek Verbond - Reformatorisch Politieke Federatie"
         ],
         "ches": [
             {
@@ -2734,7 +2772,8 @@
         "abbr": "Volt",
         "name": [
             "Volt Nederland",
-            "Volt Netherlands"
+            "Volt Netherlands",
+            "Volt"
         ],
         "ches": [
             {
@@ -2803,6 +2842,8 @@
         "abbr": "LibDem",
         "name": [
             "Liberal Democratic Party",
+            "Liberal Democrats Party",
+            "Liberal Democrats",
             "Liberal Democrat Party"
         ],
         "ches": [
@@ -2830,7 +2871,9 @@
         "abbr": "Plaid",
         "name": [
             "Plaid Cymru",
-            "Party of Wales"
+            "Party of Wales",
+            "Plaid Cymru - Parti of Wales",
+            "Plaid Cymru - Party of Wales"
         ],
         "ches": [
             {
@@ -2856,7 +2899,8 @@
         "country": "United Kingdom",
         "abbr": "UKIP",
         "name": [
-            "United Kingdom Independence Party"
+            "United Kingdom Independence Party",
+            "UK Independence Party"
         ],
         "ches": [
             {
@@ -2899,6 +2943,8 @@
         "abbr": "CDU",
         "name": [
             "Coligação Democrática Unitária",
+            "Coligação Democrática Unitária (PCP-PEV)",
+            "Coligação Democrática Unitária: Partido Comunista Português (PCP)",
             "Democratic Unitarian Coalition"
         ],
         "ches": [
@@ -2913,11 +2959,15 @@
         "abbr": "CDS/PP/CDS-PP",
         "name": [
             "Centro Democrático e Social",
+            "Centre des démocrates sociaux",
             "Democratic and Social Center",
+            "Centro Democràtico y Social",
             "Partido Popular",
             "People's Party",
             "Centro Democrático e Social-Partido",
-            "Popular CDS-People's Party"
+            "Popular CDS-People's Party",
+            "Partido do Centro Democrático Social-Partido Popular",
+            "Partido do Centro Democrático Social"
         ],
         "ches": [
             {
@@ -3087,6 +3137,7 @@
         "abbr": "ÖVP",
         "name": [
             "Österreichische Volkspartei",
+            "Österreichische Volkspartei - Liste Ursula Stenzel",
             "Austrian People's Party"
         ],
         "ches": [
@@ -3115,6 +3166,7 @@
         "abbr": "Grüne",
         "name": [
             "Die Grünen",
+            "Die Grünen - Die Grüne Alternative",
             "The Austrian Green Party"
         ],
         "ches": [
@@ -3130,8 +3182,10 @@
         "name": [
             "Liberales Forum",
             "Liberal Forum",
+            "Die Liberalen",
             "NEOS-Das Neue Österreich und Liberales Forum",
-            "NEOS-The New Austria and Liberal Forum"
+            "NEOS-The New Austria and Liberal Forum",
+            "NEOS – Das Neue Österreich"
         ],
         "ches": [
             {
@@ -3159,7 +3213,9 @@
         "abbr": "MARTIN",
         "name": [
             "Liste Dr. Hans-Peter Martin",
-            "Hans-Peter Martin's List"
+            "Hans-Peter Martin's List",
+            "Liste \"Dr. Martin - für Demokratie, Kontrolle, Gerechtigkeit\"",
+            "Liste Dr. Hans-Peter Martin - Für echte Kontrolle in Brüssel"
         ],
         "ches": [
             {
@@ -3187,6 +3243,7 @@
         "abbr": "SDP",
         "name": [
             "Suomen Sosialidemokraattinen Puolue",
+            "Suomen Sosialidemokraattinen Puolue/Finlands Socialdemokratiska Parti",
             "Social Democratic Party of Finland"
         ],
         "ches": [
@@ -3260,6 +3317,7 @@
         "name": [
             "Ruotsalainen kansanpuolue/ Svenska folkpartiet",
             "Swedish People's Party",
+            "Svenska folkpartiet",
             "Suomen ruotsalainen kansanpuolue/Svenska folkpartiet i Finland",
             "The Swedish People's Party of Finland"
         ],
@@ -3291,6 +3349,8 @@
         "name": [
             "Suomen Kristillinen Liitto",
             "Finnish Christian League",
+            "Suomen kristillisdemokraatit",
+            "Suomen kristillisdemokraatit rp",
             "Kristillisdemokraatit",
             "Christian Democrats"
         ],
@@ -3455,6 +3515,8 @@
         "name": [
             "Miljöepartiet de Gröna",
             "Miljöpartiet de gröna",
+            "Miljöpartiet",
+            "Green Party",
             "Environment Party-The Greens"
         ],
         "ches": [
@@ -3539,7 +3601,8 @@
         "abbr": "NDSV",
         "name": [
             "Nacionalno Dvi'enie Simeon Vtori",
-            "National Movement Simeon II"
+            "National Movement Simeon II",
+            "National Movement for Stability and Progress"
         ],
         "ches": [
             {
@@ -3605,7 +3668,8 @@
             "Dvi'enie Gergiovden",
             "Gergiovden-VMRO",
             "VMRO-Bulgarsko Natsionalno Dvizhenie",
-            "VMRO-Bulgarian National Movement"
+            "VMRO-Bulgarian National Movement",
+            "VMRO"
         ],
         "ches": [
             {
@@ -3635,7 +3699,8 @@
             "Nacionalno Obedinenie Ataka",
             "National Union Attack",
             "Ataka",
-            "Attack"
+            "Attack",
+            "Attack Coalition"
         ],
         "ches": [
             {
@@ -3649,7 +3714,8 @@
         "abbr": "DSB",
         "name": [
             "Demokrati za Silna B'algarija",
-            "Democrats for a Strong Bulgaria"
+            "Democrats for a Strong Bulgaria",
+            "Democrats for Strong Bulgaria"
         ],
         "ches": [
             {
@@ -3930,7 +3996,9 @@
         "abbr": "KDU-CSL",
         "name": [
             "Kresťanská demokratická unie-Ceskoslovenská strana lidová",
-            "Christian Democratic Union-Czechoslovak People's Party"
+            "Christian Democratic Union-Czechoslovak People's Party",
+            "Křesťansko democratická unie - Československá strana lídová",
+            "Křesťanská a demokratická unie - Československá strana lidová"
         ],
         "ches": [
             {
@@ -3958,7 +4026,9 @@
         "abbr": "SNK-ED",
         "name": [
             "Sdružení nezávislých kandidátu-Evropští demokraté",
-            "Union of Independents-European Democrats"
+            "SNK sdruženi nezávislých a Evropští demokraté",
+            "Union of Independents-European Democrats",
+            "Evropští demokraté"
         ],
         "ches": [
             {
@@ -4000,7 +4070,9 @@
         "abbr": "TOP09",
         "name": [
             "Top09; Tradice Odpovednost Prosperita 09 Top09",
-            "Tradition Responsibility Prosperity 09"
+            "Tradition Responsibility Prosperity 09",
+            "TOP 09",
+            "TOP 09 a Starostové"
         ],
         "ches": [
             {
@@ -4084,7 +4156,8 @@
         "abbr": "SPD",
         "name": [
             "Svoboda a prímá demokracie Tomio Okamura",
-            "Freedom and Direct Democracy Tomio Okamura"
+            "Freedom and Direct Democracy Tomio Okamura",
+            "Svoboda a přímá demokracie"
         ],
         "ches": [
             {
@@ -4141,7 +4214,8 @@
         "name": [
             "Isamaa Erakond Isamaa ja Res Publica Liit",
             "Isamaa Pro Patria & Res Publica Union",
-            "Fatherland"
+            "Fatherland",
+            "Isamaa ja Res Publica Liit"
         ],
         "ches": [
             {
@@ -4211,7 +4285,8 @@
         "abbr": "ERL",
         "name": [
             "Eestimaa Rahvaliit",
-            "Estonian People's Union"
+            "Estonian People's Union",
+            "Eestimaa Rahvalliit"
         ],
         "ches": [
             {
@@ -4440,6 +4515,7 @@
         "name": [
             "Együtt 2014",
             "Együtt 2019",
+            "Együtt 2014 - Párbeszéd Magyarországért",
             "Together 2014",
             "Together 2019"
         ],
@@ -4511,6 +4587,7 @@
         "abbr": "Tisza",
         "name": [
             "Tisztelet és Szabadság Pártja",
+            "Tisztelet és Szabadság Párt",
             "Tisza – Respect and Freedom Party"
         ],
         "ches": [
@@ -4525,6 +4602,7 @@
         "abbr": "JL",
         "name": [
             "Jaunais Laikas",
+            "Jaunais laiks",
             "New Era Party"
         ],
         "ches": [
@@ -4540,6 +4618,7 @@
         "name": [
             "Par Cilveka Tiesibam Vienota Latvija",
             "For Human Rights in United Latvia",
+            "Politisko organizāciju savienība \"Par cilvēka tiesībām vienotā Latvijā\"",
             "Latvijas Krievu savieniba",
             "Latvian Russian Union"
         ],
@@ -4569,6 +4648,7 @@
         "abbr": "LPP",
         "name": [
             "Latvijas Pirma Partija",
+            "Latvijas Pirmā Partija/Latvijas Ceļš",
             "Lativa’s First Party"
         ],
         "ches": [
@@ -4598,7 +4678,10 @@
         "name": [
             "Nacionala apvieniba “Visu Latvijai!”",
             "National Alliance “All For Latvia!”",
+            "Nacionālā apvienība \"Visu Latvijai!\"-\"Tēvzemei un Brīvībai/LNNK\"",
+            "Nacionālā apvienība \"Visu Latvijai!\" - \"Tēvzemei un Brīvībai/LNNK\"",
             "Tevzemei un Brıvıbai/LNNK",
+            "Tēvzemei un Brīvībai/LNNK",
             "For Fatherland and Freedom/LNNK"
         ],
         "ches": [
@@ -4644,6 +4727,7 @@
             "Saskanas Centrs",
             "Harmony Centre",
             "Socialdemokratiska Partija Saskana “Harmony”",
+            "\"Saskaņa\" sociāldemokrātiskā partija",
             "Centre Social Democratic Party “Harmony”"
         ],
         "ches": [
@@ -4673,6 +4757,7 @@
         "name": [
             "Vienotiba",
             "Jauna Vienotıba Unity",
+            "Partija \"VIENOTĪBA\"",
             "New Unity"
         ],
         "ches": [
@@ -4743,7 +4828,9 @@
         "abbr": "AP!",
         "name": [
             "Attıstıbai/Par!",
-            "Development/For!"
+            "Attīstībai/Par!",
+            "Development/For!",
+            "Latvijas attīstībai"
         ],
         "ches": [
             {
@@ -4888,6 +4975,7 @@
         "abbr": "LVP/LVLS/LVZS",
         "name": [
             "Lietuvos valstiečiu partija",
+            "Lietuvos valstiečių liaudininkų sąjunga",
             "Valstieciu ir Lithuanian Peasant Party",
             "Naujosios demokratijos partiju sajungos",
             "Lithuanian Peasant Popular Union",
@@ -4950,6 +5038,7 @@
         "abbr": "LLRA",
         "name": [
             "Lietuvos lenku rinkimu akcija",
+            "Lietuvos lenkų rinkimų akcija – Krikščioniškų šeimų sąjunga",
             "Electoral Action of Lithuania’s Poles"
         ],
         "ches": [
@@ -4992,6 +5081,7 @@
         "abbr": "MKDS",
         "name": [
             "Moderniujui krikščioniu demokratu sąjunga",
+            "Moderniųjų krikščionių demokratų sajunga",
             "Modern Christian-Democratic Union"
         ],
         "ches": [
@@ -5006,6 +5096,7 @@
         "abbr": "TT",
         "name": [
             "Tvarka ir teisingumas",
+            "Partija Tvarka ir teisingumas",
             "Order and Justice"
         ],
         "ches": [
@@ -5205,6 +5296,7 @@
         "abbr": "SLD/NL",
         "name": [
             "Sojusz Lewicy Demokratycznej",
+            "Sojusz Lewicy Demokratycznej - Unia Pracy",
             "Alliance of Democratic Left",
             "Democratic Left Alliance",
             "Nowa Lewica",
@@ -5593,7 +5685,8 @@
         "abbr": "FDGR",
         "name": [
             "Forumul Democrat al Germanilor din România",
-            "Democratic Forum of Germans of Romania"
+            "Democratic Forum of Germans of Romania",
+            "Forumul Democrat al Germanitor din România"
         ],
         "ches": [
             {
@@ -5650,7 +5743,8 @@
         "name": [
             "Partidul Liberal Reformator",
             "Liberal Reformist Party",
-            "Alianta Liberalilor şi Democratilor"
+            "Alianta Liberalilor şi Democratilor",
+            "ALDE Romania"
         ],
         "ches": [
             {
@@ -5754,6 +5848,7 @@
             "Strana Smer-Tretia Cesta",
             "Direction-Third Way",
             "Smer-sociálna demokracia",
+            "Smer",
             "Direction-Social Democracy"
         ],
         "ches": [
@@ -5769,6 +5864,7 @@
         "name": [
             "Strana madarskej koalície-Magyar",
             "Party of the Hungarian Coalition",
+            "Strana mad'arskej komunity- Magyar Közösség Pártja",
             "Strana mad'arskej koalície - Magyar Koalíció Pártja",
             "Koalíció Pártja",
             "Hungarian Coalition"
@@ -5813,6 +5909,7 @@
         "abbr": "KSS",
         "name": [
             "Komunistická strana",
+            "Komunistická strana Slovenska",
             "Slovenska Communist Party of Slovakia"
         ],
         "ches": [
@@ -5926,6 +6023,7 @@
         "abbr": "NOVA",
         "name": [
             "Nová Väčšina",
+            "NOVA",
             "New Majority"
         ],
         "ches": [
@@ -5954,6 +6052,7 @@
         "abbr": "LSNS",
         "name": [
             "Ĺudová strana Naše Slovensko (Marian Kotleba)",
+            "Kotleba – Ľudová strana Naše Slovensko",
             "People's Party-Our Slovakia"
         ],
         "ches": [
@@ -6066,7 +6165,8 @@
         "abbr": "LDS",
         "name": [
             "Liberalna demoracija Slovenije",
-            "Liberal Democracy of Slovenia"
+            "Liberal Democracy of Slovenia",
+            "Liberalna Demokracija Slovenije"
         ],
         "ches": [
             {
@@ -6082,6 +6182,7 @@
             "Socialdemokratska stranka Slovenije",
             "Social Democratic Party of Slovenia",
             "Slovenska demokratska stranka",
+            "Strana Demokratického Slovenska",
             "Slovenian Democratic Party"
         ],
         "ches": [
@@ -6128,7 +6229,9 @@
         "abbr": "NSI",
         "name": [
             "Nova Slovenija-Kršcanska ljudska stranka",
-            "New Slovenia-Christian People's Party"
+            "New Slovenia-Christian People's Party",
+            "Nova Slovenija – Krščanski demokrati",
+            "Nova Slovenija"
         ],
         "ches": [
             {
@@ -6142,7 +6245,8 @@
         "abbr": "DeSUS",
         "name": [
             "Demokratična stranka upokojencev Slovenije",
-            "Democratic Party of Pensioners of Slovenia"
+            "Democratic Party of Pensioners of Slovenia",
+            "DeSUS - Demokratična Stranka Upokojencev Slovenije"
         ],
         "ches": [
             {
@@ -6198,7 +6302,8 @@
         "abbr": "Zares",
         "name": [
             "Zares",
-            "Zares-For Real"
+            "Zares-For Real",
+            "ZARES-Nova Politika"
         ],
         "ches": [
             {
@@ -6427,6 +6532,7 @@
         "abbr": "HDSSB",
         "name": [
             "Hrvatski Demokrtski Sabor Slavonije i Baranje",
+            "Hrvatski demokratski savez Slavonije i Baranje",
             "Croatian Democratic Assembly of Slavonija and Baranja"
         ],
         "ches": [
@@ -6694,6 +6800,7 @@
         "abbr": "DP",
         "name": [
             "Demokratesch Partei",
+            "Parti démocratique",
             "Democratic Party"
         ],
         "ches": [
@@ -6781,6 +6888,7 @@
         "abbr": "DISY",
         "name": [
             "Dimokratikós Sinagermós",
+            "Dimokratikos Synagermos",
             "Democratic Rally"
         ],
         "ches": [
@@ -6810,6 +6918,7 @@
         "name": [
             "Anorthotikó Kómma Ergazómenou Laoú",
             "Progressive Party of Working People",
+            "Progressive Party of Working People - Left - New Forces",
             "Anorthotiko Komma Ergazomenou Laou - Aristera - Nees Dynameis"
         ],
         "ches": [

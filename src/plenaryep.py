@@ -12,8 +12,7 @@ data = (Path(__file__).parents[1] / "data").absolute()
 generated = (Path(__file__).parents[1] / "generated").absolute()
 generated.mkdir(exist_ok=True)
 
-logger = logging.getLogger(__name__)
-logger.setLevel(level=logging.ERROR)
+logging.basicConfig(level=logging.INFO)
 
 
 @click.group()
@@ -21,29 +20,28 @@ def cli():
     pass
 
 
-@click.option('-v', '--verbose', is_flag=True, default=False)
+@click.option('-t', '--min-term', 
+              help='Earliest term from where meps should be included.',
+              type=click.IntRange(0, 10), default=4)
+@click.option('--existing',
+              type=click.Path(exists=True, file_okay=True, dir_okay=False),
+              help='Path to a mep tmp file - set if the re-generation was interrrupted to continue from the latest state.')
+@click.option('-v', '--verbose', 
+              is_flag=True, default=False)
 @cli.command()
-def regenerate_meps(verbose: bool):
+def regenerate_meps(min_term: int, 
+                    existing: str,
+                    verbose: bool):
     """ Re-generate the MEP metadata files to bring them up-to-date. """
     if verbose:
-        logger.setLevel(level=logging.DEBUG)
+        logging.basicConfig(level=logging.DEBUG)
 
     output = data / "mep-metadata.json"
-    ches_map = json.load(open(data / "ches-map.json"))
-    group_map = json.load(open(data / "group-map.json"))
 
-    meps, ches_misses = get_meps(ches_map,
-                                 group_map, 
-                                 verbose)
+    meps = get_meps(min_term, existing, verbose)
     
     json.dump(meps, open(output, "w"), ensure_ascii=False, indent=4)
-    logger.warning(f"Saved to: `data/mep-metadata.json`")
-
-    json.dump(ches_misses, 
-              open(generated / "ches-misses.json", 'w'), 
-              ensure_ascii=False, 
-              indent=4)
-    logger.warning(f"XXX parties could not be mapped to a CHES party.\nThese party names can be added to `data/ches-map.json` where appropriate, then re-generate the MEP list.\n\nFind the missed parties here: `generated/ches-misses.json`")
+    logger.info(f"Saved mep metadata to: {output.absolute()}")
 
 
 @click.option('--existing',
@@ -56,7 +54,10 @@ def corpus(
     existing: str | None,
     verbose: bool
     ):
-    logger.error("INFO")
+    if verbose:
+        logging.basicConfig(level=logging.DEBUG)
+
+    logger.info("info")
     logger.error(existing)
     logger.debug("DEBUG")
     now = datetime.now()
@@ -89,4 +90,5 @@ def cap(
     
 
 if __name__ == "__main__":
+    logger = logging.getLogger(__name__)
     cli()
