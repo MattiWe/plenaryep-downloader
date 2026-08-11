@@ -412,4 +412,4 @@ def get_meps(
         logger.error("Not all groups are mapped in `data/group-map.json`, perhaps it was not updated for a newer term? -> see `generated/group_misses.json` for missing group names.")
         json.dump(list(group_misses), open(generated / "group_misses.json", 'w'), ensure_ascii=False, indent=4)
     
-    return meps
+    return mep_metadata
