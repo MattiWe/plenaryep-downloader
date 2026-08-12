@@ -23,7 +23,7 @@ Building or updating the corpus directly uses MEP metadata from an external sour
     python3 plenaryep.py regenerate-meps
     ```
 
-This will create a file `data/mep-metadata.json`. 
+This will create a file `data/mep-metadata.json`. Check `--help` for more options.
 
 
 ## 2. Proceedings

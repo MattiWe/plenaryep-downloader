@@ -6,7 +6,8 @@ import logging
 from datetime import datetime
 import json
 
-from meps import get_meps
+from plenaryep_downloader.meps import get_meps
+from plenaryep_downloader.reports import load
 
 data = (Path(__file__).parents[1] / "data").absolute()
 generated = (Path(__file__).parents[1] / "generated").absolute()
@@ -47,7 +48,6 @@ def regenerate_meps(min_term: int,
 @click.option('--existing',
               type=click.Path(exists=True, file_okay=True, dir_okay=False),
               help='Path to an existing dataset - if set, only newer proceedings than whats in the existing dataset will be processed.')
-@click.option('-t', '--translate', is_flag=True, default=False)
 @click.option('-v', '--verbose', is_flag=True, default=False)
 @cli.command()
 def corpus(
@@ -57,15 +57,15 @@ def corpus(
     if verbose:
         logging.basicConfig(level=logging.DEBUG)
 
-    logger.info("info")
-    logger.error(existing)
-    logger.debug("DEBUG")
+    dataset = []
+    if existing:
+        load(existing)
+
     now = datetime.now()
     # output
     output = generated / f"plenaryep_{now.strftime('%y-%m-%d')}.jsonl"
-
-    # TODO add MEP and CHES data
     meps = data / "mep-metadata.json"
+    
 
     # write with new name, leave the old one unchanged
 
