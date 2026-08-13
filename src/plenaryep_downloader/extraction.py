@@ -30,12 +30,12 @@ v2_date = datetime(2008, 1, 30)
 v3_date = datetime(2012, 12, 10)
 
 
-def download_sources(newest: datetime | None) -> None:
+def download_sources(newest: datetime | None, verbose: bool) -> None:
     source_output = generated / "sources"
     source_output.mkdir(exist_ok=True)
 
     process = CrawlerProcess()
-    process.crawl(RedsXmlSpider, newest=newest, output_dir=source_output)
+    process.crawl(RedsXmlSpider, newest=newest, output_dir=source_output, verbose=verbose)
     process.start()
 
 

@@ -6,14 +6,12 @@ from pathlib import Path
 from typing import Iterable
 from urllib.parse import urlparse
 from datetime import datetime
-import logging
 
+from wasabi import msg as logger
 import scrapy
 from scrapy.http import Response
 from scrapy.utils.defer import deferred_from_coro
 
-logging.basicConfig(level=logging.WARNING)
-logger = logging.getLogger(__name__)
 
 ROOT_URL = "https://redmapl3.europarl.europa.eu/RedmapFront/media/reds_iPlCre_Sit/"
 REMOTE_ROOT_PATH = "/RedmapFront/media/reds_iPlCre_Sit/"
@@ -36,26 +34,36 @@ class RedsXmlSpider(scrapy.Spider):
         "handle_httpstatus_list": [429],
     }
 
-    def __init__(self, newest: datetime | None, output_dir: Path, *args, **kwargs):
+    def __init__(self, newest: datetime | None, output_dir: Path, verbose: bool, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.output_dir = output_dir
         self.newest = newest
-        # self.logger.setLevel(logging.WARNING)
+        self.verbose = verbose
 
     def parse(self, response: Response):
         xml_links = []
 
+        _ = [_file.stem.split("-") for _file in self.output_dir.glob("*.xml")]
+        existing_file_dates = [datetime(year=int(splits[2]), 
+                                        month=int(splits[3]), 
+                                        day=int(splits[4])) for splits in _]
+
+        # find all subdirectories for the individual reports
         for href in response.css("pre a::attr(href)").getall():
             if href == "../":
                 continue
-            if href.endswith("entity/"):
+            if href.endswith("entity/") or href.endswith("technical/"):
                 continue
             if href.endswith("/"):
-                # Skip reports given in self.existing_dates
                 splits = href.strip(" /").split("-")[2:]
                 date = datetime(year=int(splits[0]), month=int(splits[1]), day=int(splits[2]))
+                # Skip reports older than the state of the provided dataset
                 if self.newest and date <= self.newest: 
-                    self.logger.info(f"date {date} is older than {self.newest} ; skipping")
+                    logger.info(f"skipping {href} as it is older than the dataset", show=self.verbose)
+                    continue
+                # Skip already downloaded reports
+                if date in existing_file_dates: 
+                    logger.info(f"skipping {href} as a file for it was already downloaded", show=self.verbose)
                     continue
                 yield response.follow(href, self.parse)
             if href.lower().endswith(".xml"):
@@ -68,9 +76,7 @@ class RedsXmlSpider(scrapy.Spider):
                 output_path = self.output_dir / filename
                 # Skip existing/downloaded source
                 if output_path.exists():
-                    self.logger.info(
-                        f"XML file exists {filename}; skipping"
-                    )
+                    logger.info(f"XML file exists {filename}; skipping", show=self.verbose)
                     continue
                 
                 yield response.follow(
@@ -105,11 +111,7 @@ class RedsXmlSpider(scrapy.Spider):
             is_multilingual = len(language_set) > 1
             if is_multilingual and "en" not in language_set:
                 # Skip this base completely because it's multilingual but lacks an English version
-                self.logger.info(
-                    "Skipping multilingual group for base '%s' in %s because no English variant found.",
-                    base,
-                    page_url,
-                )
+                logger.warn("Skipping multilingual group for {base} because no English variant found.")
                 continue
 
             # Prefer English final versions (FNL_en) over REV; otherwise fall back to REV or available variants
@@ -136,11 +138,7 @@ class RedsXmlSpider(scrapy.Spider):
         # If English versions exist among the selected set, pick only those
         english_links = [href for href in selected if self._xml_language(href) == "en"]
         if english_links:
-            self.logger.info(
-                "Found multilingual XML files in %s, selecting only English versions (%s files).",
-                page_url,
-                len(english_links),
-            )
+            logger.info("Found multilingual XML files in {page_url}, selecting only English version.", show=self.verbose)
             return english_links
 
         return selected
@@ -168,36 +166,20 @@ class RedsXmlSpider(scrapy.Spider):
         for base, variants in groups.items():
             langs = [lang or "none" for lang, _ in variants]
             if len(variants) > 1:
-                self.logger.info(
-                    "Multiple language/name variants detected for base '%s' in %s: %s",
-                    base,
-                    page_url,
-                    ", ".join(langs),
-                )
+                logger.info(f"Multiple language/name variants detected for '{base}' in {page_url}: {', '.join(langs)}", show=self.verbose)
 
     def save_xml(self, response: Response):
         if response.status == 429:
             retry_times = response.meta.get("retry_times", 0)
             retry_wait = response.meta.get("retry_wait", 5)
-            self.logger.warning(
-                "Received HTTP 429 for %s; retrying after %s seconds (attempt %s).",
-                response.url,
-                retry_wait,
-                retry_times + 1,
-            )
+            logger.warn(f"Received HTTP 429 for {response.url}; retrying", show=self.verbose)
 
             if retry_times >= 5:
-                self.logger.error(
-                    "Maximum retry attempts reached for %s, skipping download.",
-                    response.url,
-                )
+                logger.fail(f"Maximum retry attempts reached for {response.url}, skipping...")
                 return
 
             if response.request is None:
-                self.logger.error(
-                    "No original request available for retry of %s, skipping.",
-                    response.url,
-                )
+                logger.fail(f"No original request available for retry of {response.url}, skipping.")
                 return
 
             next_request = response.request.replace(
@@ -208,19 +190,12 @@ class RedsXmlSpider(scrapy.Spider):
             return deferred_from_coro(self._retry_after_delay(next_request, retry_wait))
 
         if response.status != 200:
-            self.logger.warning(
-                "Unexpected HTTP status %s for %s, skipping.",
-                response.status,
-                response.url,
-            )
+            logger.warn(f"Unexpected HTTP status {response.status} for {response.url}, skipping.")
             return
 
         parsed = urlparse(response.url)
         if not parsed.path.startswith(REMOTE_ROOT_PATH):
-            self.logger.warning(
-                "Skipping XML save because the path does not start with the expected root prefix: %s",
-                response.url,
-            )
+            logger.warn(f"Skipping XML save because the path does not start with the expected root prefix: {response.url}")
             return
 
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -228,14 +203,10 @@ class RedsXmlSpider(scrapy.Spider):
         output_path = self.output_dir / filename
 
         if output_path.exists():
-            self.logger.info(
-                "Skipping save for %s because file already exists at %s.",
-                response.url,
-                output_path,
-            )
+            logger.info(f"Skipping save for {response.url}. File exists.", show=self.verbose)
             return
 
-        self.logger.info("Saving XML file %s to %s", response.url, output_path)
+        logger.info(f"Saving XML file {response.url}", show=self.verbose)
         output_path.write_bytes(response.body)
 
         yield {
