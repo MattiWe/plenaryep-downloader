@@ -31,9 +31,11 @@ This will create a file `data/mep-metadata.json`. Check `--help` for more option
 The proceedings are crawled and extracted from `https://redmapl3.europarl.europa.eu/RedmapFront/media/reds_iPlCre_Sit/`. 
 
     ```
-    python3 plenaryep.py corpus
+    python3 plenaryep.py corpus \
+      --existing /path/to/plenaryep.jsonl
     ```
 
+This will download the sources, extract the debates, and save the resulting dataset. When providing an existing dataset, only debates newer than the ones within are downloaded. The option `--no-filter` disables filtering of votes and procedural speeches. Check `--help` for more options.
 
 ## 3. Translations
 

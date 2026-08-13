@@ -50,26 +50,26 @@ class Speaker:
     group_family: str | None = None
     party: str | None = None
     party_code: str | None = None
-    ches_code: str | None = None
+    ches_id: str | None = None
     ches_family: str | None = None
 
 
 @dataclass
 class Speech:
-    id: str | None
-    date: datetime
+    id: str
+    date: str
     act_id: str | None
     source_lang: str | None
     speaker_type: str | None
     debate_title: str | None
     debate_type: DebateType | None
     translation: Translation | None
-    speaker: List[Speaker]
-    cap_major: List
-    cap_major_ids: List
-    cap_minor: List
-    cap_minor_ids: List
-    words: int
+    speaker: List[Speaker] = field(default_factory=list) 
+    cap_major: List = field(default_factory=list) 
+    cap_major_ids: List = field(default_factory=list) 
+    cap_minor: List = field(default_factory=list) 
+    cap_minor_ids: List = field(default_factory=list) 
+    words: int = 0
     paragraphs: List[str] = field(default_factory=list) 
 
     @classmethod
@@ -78,31 +78,6 @@ class Speech:
         speakers = [Speaker(**_) for _ in speech["speaker"]]
         speech["speaker"] = speakers
         return Speech(**speech)   
-
-    # TODO check if needed
-    # def is_complete(self) -> bool:
-    #     if not self.group or not self.paragraphs:
-    #         return False
-    #     return True
-
-    # def as_dict(self) -> dict:
-    #     return {
-    #         "act_id": self.act_id,
-    #         "source_lang": self.source_lang,
-    #         "speaker_type": self.speaker_type,
-    #         "party": self.party,
-    #         "country": self.country,
-    #         "group": self.group,
-    #         "ches": self.ches,
-    #         "mep_id": self.mep_id,
-    #         "speaker_name": self.speaker_name,
-    #         "debate_title": self.debate_title,
-    #         "debate_type": self.debate_type,
-    #         "translation": self.translation,
-    #         "cap": self.cap,
-    #         "cap_code": self.cap_code,
-    #         "paragraphs": self.paragraphs,
-    #     }
 
 
 @dataclass
@@ -116,29 +91,20 @@ class VerbatimReport:
         speeches = [Speech.load(_) for _ in speeches]
         return VerbatimReport(
             date=datetime.fromisoformat(date),
-            speeches=speeches
-            )   
-
-    # def as_dict(self, include_incomplete=True):
-    #     """
-    #     :param include_incomplete: If False, omits speeches with incomplete speaker metadata , defaults to True
-    #     """
-    #     _speeches = [_.as_dict() 
-    #                  for _ in self.speeches
-    #                  if include_incomplete or _.is_complete()]
-    #     return {
-    #         "date": self.date.isoformat(),
-    #         "speeches": _speeches
-    #     }
+            speeches=speeches)   
 
 
-def save(dataset: List[VerbatimReport], dataset_path: str) -> None:
+def save(dataset: List[VerbatimReport], dataset_path: str | Path, no_filter: bool = True) -> None:
     """Serialize and save a dataset"""
     dataset = sorted(dataset, key=lambda x: x.date)
 
     with open(dataset_path, 'w') as of:
         for report in tqdm(dataset, desc="saving reports"):
             for speech in report.speeches:
+                if not no_filter and (
+                    speech.debate_type == DebateType.PROCEDURAL or
+                    speech.debate_type == DebateType.VOTE):
+                    continue
                 of.write(f"{json.dumps(asdict(speech), ensure_ascii=False)}\n")
 
 

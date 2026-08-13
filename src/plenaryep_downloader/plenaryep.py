@@ -1,19 +1,17 @@
 import click
 from pathlib import Path
-from statistics import mean
-from tqdm.auto import tqdm
-import logging
 from datetime import datetime
 import json
 
+from tqdm.auto import tqdm
+from wasabi import msg as logger
 from plenaryep_downloader.meps import get_meps
-from plenaryep_downloader.reports import load
+import plenaryep_downloader.reports as ep
+from plenaryep_downloader.extraction import download_sources, Extractor
 
-data = (Path(__file__).parents[1] / "data").absolute()
-generated = (Path(__file__).parents[1] / "generated").absolute()
+data = (Path(__file__).parents[2] / "data").absolute()
+generated = (Path(__file__).parents[2] / "generated").absolute()
 generated.mkdir(exist_ok=True)
-
-logging.basicConfig(level=logging.INFO)
 
 
 @click.group()
@@ -30,13 +28,8 @@ def cli():
 @click.option('-v', '--verbose', 
               is_flag=True, default=False)
 @cli.command()
-def regenerate_meps(min_term: int, 
-                    existing: str,
-                    verbose: bool):
+def regenerate_meps(min_term: int, existing: str, verbose: bool):
     """ Re-generate the MEP metadata files to bring them up-to-date. """
-    if verbose:
-        logging.basicConfig(level=logging.DEBUG)
-
     output = data / "mep-metadata.json"
 
     meps = get_meps(min_term, existing, verbose)
@@ -48,26 +41,38 @@ def regenerate_meps(min_term: int,
 @click.option('--existing',
               type=click.Path(exists=True, file_okay=True, dir_okay=False),
               help='Path to an existing dataset - if set, only newer proceedings than whats in the existing dataset will be processed.')
+@click.option('--no-filter', is_flag=True, default=False,
+              help="When set, does not remove procedural and vote speeches.")
+@click.option('--overwrite', is_flag=True, default=False,
+              help="When set, overwrites the dataset given in `existing`")
 @click.option('-v', '--verbose', is_flag=True, default=False)
 @cli.command()
-def corpus(
-    existing: str | None,
-    verbose: bool
-    ):
-    if verbose:
-        logging.basicConfig(level=logging.DEBUG)
-
+def corpus(existing: str | None, no_filter: bool, overwrite: bool, verbose: bool):
+    newest = None
     dataset = []
     if existing:
-        load(existing)
+        # dataset loader returns a sorted list of reports, the last one should be the newest
+        dataset = ep.load(existing)
+        newest = dataset[-1].date
 
+    download_sources(newest=newest)
+
+    extractor = Extractor(verbose)
+    new_reports = [_ for _ in extractor(generated / "sources", newest=newest)]
+    logger.info(f"extracted {len(new_reports)} reports", show=verbose)
+    if verbose:
+        extractor.eval()
+
+    dataset.extend(new_reports)
+
+    # write output with new name, leave the old one unchanged
     now = datetime.now()
-    # output
-    output = generated / f"plenaryep_{now.strftime('%y-%m-%d')}.jsonl"
-    meps = data / "mep-metadata.json"
-    
-
-    # write with new name, leave the old one unchanged
+    if overwrite and existing:
+        output = Path(existing)
+    else:
+        output = generated / f"plenaryep_{now.strftime('%y-%m-%d')}.jsonl"
+    ep.save(dataset, output, no_filter)
+    logger.info(f"Saved corpus to: {output.absolute()}")
 
 
 @cli.command()
@@ -90,5 +95,5 @@ def cap(
     
 
 if __name__ == "__main__":
-    logger = logging.getLogger(__name__)
+    # logger = logging.getLogger(__name__)
     cli()

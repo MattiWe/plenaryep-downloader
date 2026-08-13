@@ -17,8 +17,8 @@ from xml.etree import ElementTree
 CURRENT_TERM = 10
 EP_API_BASE = "https://data.europarl.europa.eu/api/v2"
 
-generated = (Path(__file__).parents[1] / "generated").absolute()
-data = (Path(__file__).parents[1] / "data").absolute()
+generated = (Path(__file__).parents[2] / "generated").absolute()
+data = (Path(__file__).parents[2] / "data").absolute()
 
 logger = logging.getLogger(__name__)
 headers = {'user-agent': 'Mozilla/5.0 (compatible; plenaryep-prd-0.1.0)'}
