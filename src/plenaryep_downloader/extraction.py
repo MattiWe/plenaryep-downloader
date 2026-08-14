@@ -340,7 +340,7 @@ class Extractor(object):
         source_lang = None
         speaker_name = None
         speaker_type = None
-        translation = None
+        translation = ep.Translation.EP
         group_field = None
         debate_title = ""
         chapter_type = "OTHER"
@@ -370,6 +370,9 @@ class Extractor(object):
                                 speaker_name
                             ))
                             words = sum([len(p.split(" ")) for p in para])
+                            if source_lang and source_lang.lower() == 'en':
+                                translation = ep.Translation.SOURCE
+
                             speech = ep.Speech(
                                 id=f"{self.date.strftime('%y%m%d')}{speech_idx}",
                                 date=datetime.isoformat(self.date),
@@ -411,11 +414,13 @@ class Extractor(object):
                                 speaker_type = _[0].strip(",. ")
                                 source_lang = _[1].strip("(). ")
                                 translation = ep.Translation.SOURCE
-                                if source_lang != "EN":
+                                if source_lang.lower() != "en":
                                     translation = ep.Translation.EP
                             elif len(_text) < 5:
                                 source_lang = "".join(elem.xpath(".//text()")).strip("(),. ")
-                                translation = ep.Translation.EP
+                                translation = ep.Translation.SOURCE
+                                if source_lang.lower() != "en":
+                                    translation = ep.Translation.EP
                             else:
                                 speaker_type = "".join(elem.xpath(".//text()")).strip("(),. ")
                                 translation = ep.Translation.EP
@@ -431,10 +436,10 @@ class Extractor(object):
 
     def eval(self):
         # EVAL speaker types
-        types = self.speaker_type_eval["source_type"]
-        mapped = self.speaker_type_eval["mapped_type"]
-        inferred = self.speaker_type_eval["inferred_type"]
-        not_mapped = self.speaker_type_eval["not_mapped"]
+        types = self.speaker_type_eval.get("source_type", [])
+        mapped = self.speaker_type_eval.get("mapped_type", [])
+        inferred = self.speaker_type_eval.get("inferred_type", [])
+        not_mapped = self.speaker_type_eval.get("not_mapped", [])
         logger.info(f"speaker_types (all): {len(set(types))} ({len(types)})")
         logger.info(f"speaker_types (mapped): {len(set(mapped))} ({len(mapped)})")
         logger.info(f"speaker_types (inferred): {len(set(inferred))} ({len(inferred)})")
@@ -442,9 +447,9 @@ class Extractor(object):
         json.dump(not_mapped, open(generated / "speaker-type-not-mapped.json", 'w'), ensure_ascii=False, indent=4)
 
         # EVAL debate types
-        types = self.debate_type_eval["all_types"]
-        inferred = self.debate_type_eval["inferred_types"]
-        mapped = self.debate_type_eval["mapped_types"]
+        types = self.debate_type_eval.get("all_types", [])
+        inferred = self.debate_type_eval.get("inferred_types", [])
+        mapped = self.debate_type_eval.get("mapped_types", [])
         logger.info(f"debate_type_eval (all): {len(set(types))} ({len(types)})")
         logger.info(f"debate_type_eval (mapped): {len(set(mapped))} ({len(mapped)})")
         logger.info(f"debate_type_eval (inferred): {len(set(inferred))} ({len(inferred)})")
@@ -454,20 +459,25 @@ class Extractor(object):
         json.dump(auto, open(generated / "debate_types_auto_mapped.json", 'w'), ensure_ascii=False, indent=4)
 
         # EVAL speaker name mapping 
-        logger.info(f"speaker_names - mep_id_inference_metadata {len(self.speaker_name_eval['mep_id_inference_metadata'])}")
-        logger.info(f"speaker_names - mep_id_inference_lastname {len(self.speaker_name_eval['mep_id_inference_lastname'])}")
-        logger.info(f"speaker_names - mep_id_inference_failed {len(self.speaker_name_eval['mep_id_inference_failed'])}")
+        logger.info(f"speaker_names - mep_id_inference_metadata {len(self.speaker_name_eval.get('mep_id_inference_metadata', []))}")
+        logger.info(f"speaker_names - mep_id_inference_lastname {len(self.speaker_name_eval.get('mep_id_inference_lastname', []))}")
+        logger.info(f"speaker_names - mep_id_inference_failed {len(self.speaker_name_eval.get('mep_id_inference_failed', []))}")
 
-        logger.info(f"speaker_names - meps {len(self.speaker_name_eval['mapped_mep'])}")
-        logger.info(f"speaker_names - w_party {len(self.speaker_name_eval['mapped_w_party'])}")
-        logger.info(f"speaker_names - w_ches {len(self.speaker_name_eval['mapped_w_ches'])}")
-        logger.info(f"speaker_names - non_mep {len(self.speaker_name_eval['non_mep'])}")
+        mapped_mep = self.speaker_name_eval.get("mapped_mep", [])
+        mapped_w_party = self.speaker_name_eval.get("mapped_w_party", [])
+        mapped_w_ches = self.speaker_name_eval.get("mapped_w_ches", [])
+        non_mep = self.speaker_name_eval.get("non_mep", [])
+        logger.info(f"speaker_names - meps {len(mapped_mep)}")
+        logger.info(f"speaker_names - w_party {len(mapped_w_party)}")
+        logger.info(f"speaker_names - w_ches {len(mapped_w_ches)}")
+        logger.info(f"speaker_names - non_mep {len(non_mep)}")
 
     def __call__(self, xml_path: Path, newest: datetime | None = None) -> Iterator[ep.VerbatimReport]:
         """Parse a REDMAP XML file and return a structured representation.
         Function for the v1 of the format, which was delivered in multiple languages and lacks speaker metadata
         - excludes annexes 
         """
+        logger.info(f"Extracting new report sources, newest: {newest}", show=self.verbose)
         sources = xml_path.glob("*.xml")
         for source in tqdm(list(sources), desc="Reports", total=len(list(sources))):
             translated_file = True if source.stem.endswith("_en") else False

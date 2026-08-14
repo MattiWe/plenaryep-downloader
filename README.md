@@ -42,14 +42,17 @@ This will download the sources, extract the debates, and save the resulting data
 Translations are only added on demand to an existing corpus. The script checks for a missing 'translation' field and saves checkpoints, so interruptions are possible. By default, we use the `translators` package to access Google Translate, which does not need an account or billing, but takes longer due to access limits. 
 
     ```
-    python3 plenaryep.py translate
+    python3 plenaryep.py translate /path/to/plenaryep.jsonl
     ```
 
+This will translate new speeches using Google translate via `translators`. Only translates non-English speeches without a s set *translation* metadate. Check `--help` for more options.
 
 ## 4. CAP Topic Classification
 
 CAP Topic are only added on demand to an existing corpus. The script checks on a per-proceedings level to skip existing ones. This script uses the `openai` package to access an LLM via API, i.e. a separate vLLM. 
 
     ```
-    python3 plenaryep.py cap
+    python3 plenaryep.py cap /path/to/plenaryep.jsonl --server https://openai/compatible/endpoint
     ```
+
+This will determine the cap topics. It uses sentence-transformers locally for ranking and requests the api for classification. Reports where at least one speech was already classified will be skipped. Check `--help` for more options.
