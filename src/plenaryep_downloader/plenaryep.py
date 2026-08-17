@@ -104,6 +104,10 @@ def translate(input: str,
               accelerate: bool,
               verbose: bool):
     dataset = ep.load(input)
+    """ Add missing translations to a given dataset. Skips any speeches where the `translation` field is already set.
+
+    Translating many speeches may take a long while, because this function uses the free service Google Translate via the `translators` package. To not get blocked, there is a rather long timeout between requests.
+    """
 
     translator = Translator(verbose, detect_lang, accelerate)
     for report in tqdm(dataset, desc="reports", total=len(list(dataset))):
@@ -114,11 +118,11 @@ def translate(input: str,
         ep.save(dataset, input)
 
 
-@click.option('-v', '--server', type=str,
-              help="Server that responds to the openAI library (i.e. vllm).")
-@click.option('-v', '--token', type=str, default="token-abc123",
-              help="Outh token for the server")
-@click.option('-v', '--api-checkpoint', type=str, default="Qwen/Qwen3-8B",
+@click.option('--server', type=str,
+              help="Server with openAI-compatible API (vllm, olama, ...) as https://server.name:port")
+@click.option('--token', type=str, default="token-abc123",
+              help="Authentication token for the server")
+@click.option('--api-checkpoint', type=str, default="Qwen/Qwen3-8B",
               help="Huggingface Checkpoint for the model used for the classification part")
 @click.option('-v', '--verbose', is_flag=True, default=False)
 @click.argument('input', type=click.Path(exists=True, file_okay=True, dir_okay=False))
@@ -128,7 +132,12 @@ def cap(input: str,
         token: str,
         api_checkpoint: str,
         verbose: bool):    
-    
+    """ Add missing cap classifications to a given dataset.
+
+    This uses two models: 
+     - a local minilm via sentence-bert. This should run on most current hardware. 
+     - a LLM set via --api-checkpoint and requested using the openAI package to a given `server`
+    """
     dataset = ep.load(input)
     clf = CapClassifier(verbose, server, token, api_checkpoint)
     for report in tqdm(dataset, desc="reports", total=len(list(dataset))):

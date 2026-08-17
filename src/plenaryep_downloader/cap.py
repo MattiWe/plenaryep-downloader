@@ -27,7 +27,7 @@ class CapClassifier(object):
         self.cap = json.load(open(data / "cap.json"))
         self.ranking_model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L6-v2", max_length=512)
         self.api_checkpoint = api_checkpoint
-        template_path = Path(__file__) / "templates/cap.jinja2"
+        template_path = Path(__file__).parent / "templates/cap.jinja2"
         self.template = Template(open(template_path, 'r').read())
         self.client = OpenAI(
             base_url=f"{server}/v1",
@@ -35,14 +35,14 @@ class CapClassifier(object):
         )
 
     def _make_chat(self, 
-                   group: str, 
+                   area: str, 
                    topic: str, 
                    description: str, 
                    title: str, 
                    text: str) -> list:
         
         content = self.template.render(
-            group=group,
+            area=area,
             topic=topic,
             description=description,
             title=title,
@@ -53,7 +53,7 @@ class CapClassifier(object):
 
     def _classify(self, cap_id: str, text: str, title: str) -> bool:
         messages = self._make_chat(
-            group=self.cap[cap_id]["group"],
+            area=self.cap[cap_id]["area"],
             topic=self.cap[cap_id]["topic"],
             description=self.cap[cap_id]["description"],
             title=title,
@@ -74,26 +74,24 @@ class CapClassifier(object):
                             show=self.verbose)
                 return None
                 
-            for major_topic, _minor_topics in self.cap.items():
-                for minor_topic, desc in _minor_topics.items():
-                    cap_id = desc['id']
-                    query = f"{major_topic} {minor_topic} {desc['description']}"
+            for cap_id, _cap in self.cap.items():
+                query = f"{_cap["area"]} {_cap["topic"]} {_cap['description']}"
 
-                    # ranking scores
-                    examples = [(query, _) for _ in speech.paragraphs]
-                    _scores = self.ranking_model.predict(examples)
+                # ranking scores
+                examples = [(query, _) for _ in speech.paragraphs]
+                _scores = self.ranking_model.predict(examples)
 
-                    # if max pooled score > minimum threshold: classify
-                    if max(_scores) > self.thresholds[cap_id][0]:
-                        if self._classify(cap_id=cap_id,
-                                          text=" ".join(speech.paragraphs),
-                                          title=str(speech.debate_title)):
-                            
-                            if max(_scores) > self.thresholds[cap_id][1]:
-                                speech.cap_major_ids.append(cap_id)
-                                speech.cap_major.append(f"{major_topic}-{minor_topic}")
-                            else:
-                                speech.cap_minor_ids.append(cap_id)
-                                speech.cap_minor.append(f"{major_topic}-{minor_topic}")
+                # if max pooled score > minimum threshold: classify
+                if max(_scores) > self.thresholds[cap_id][0]:
+                    if self._classify(cap_id=cap_id,
+                                      text=" ".join(speech.paragraphs),
+                                      title=str(speech.debate_title)):
+                        
+                        if max(_scores) > self.thresholds[cap_id][1]:
+                            speech.cap_major_ids.append(cap_id)
+                            speech.cap_major.append(f"{_cap["area"]}-{_cap["topic"]}")
+                        else:
+                            speech.cap_minor_ids.append(cap_id)
+                            speech.cap_minor.append(f"{_cap["area"]}-{_cap["topic"]}")
 
         return report

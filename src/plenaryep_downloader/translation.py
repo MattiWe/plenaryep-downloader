@@ -38,7 +38,7 @@ class Translator(object):
             to_language='en', 
             from_language=source_lang,
             sleep_seconds=0.3,
-            timeout=30,
+            timeout=60,
             if_use_async=False
             )
 
