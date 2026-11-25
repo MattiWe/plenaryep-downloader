@@ -14,6 +14,8 @@ logger = logging.getLogger(__name__)
 
 
 class SpeakerType(str, Enum):
+    ECRIT = "ecrit"
+    PROCEDURAL = "procedural"
     RAPPORTEUR = "rapporteur"
     MEP = "mep"
     COMISSION = "commission"
@@ -27,16 +29,16 @@ class DebateType(str, Enum):
     DEBATE = "debate"
     VOTE = "vote"
     OMS = "oms"  # one minute speeches
-    PROCEDURAL = "procedural"  # urgend debate
+    PROCEDURAL = "procedural"
     QUESTIONS = "questions"
     FORMAL = "formal"
     OTHER = "other"
 
 
-class Translation(str, Enum):
+class TranslationType(str, Enum):
     SOURCE = "source"
+    MISSING = "missing"
     EP = "ep"
-    DEEPL = "deepl"
     GOOGLE = "google"
 
 
@@ -63,14 +65,15 @@ class Speech:
     speaker_type: str | None
     debate_title: str | None
     debate_type: DebateType | None
-    translation: Translation | None
     speaker: List[Speaker] = field(default_factory=list) 
-    cap_major: List = field(default_factory=list) 
-    cap_major_ids: List = field(default_factory=list) 
-    cap_minor: List = field(default_factory=list) 
-    cap_minor_ids: List = field(default_factory=list) 
+    cap: List = field(default_factory=list) 
+    cap_id: List = field(default_factory=list) 
+    cap_debate: List = field(default_factory=list) 
+    cap_debate_id: List = field(default_factory=list) 
     words: int = 0
+    translation: TranslationType = TranslationType.MISSING
     paragraphs: List[str] = field(default_factory=list) 
+    paragraphs_en: List[str] = field(default_factory=list)
 
     @classmethod
     def load(cls, speech: dict) -> Speech:
@@ -103,7 +106,8 @@ def save(dataset: List[VerbatimReport], dataset_path: str | Path, no_filter: boo
             for speech in report.speeches:
                 if not no_filter and (
                     speech.debate_type == DebateType.PROCEDURAL or
-                    speech.debate_type == DebateType.VOTE):
+                    speech.debate_type == DebateType.VOTE or
+                    speech.speaker_type == SpeakerType.PROCEDURAL):
                     continue
                 of.write(f"{json.dumps(asdict(speech), ensure_ascii=False)}\n")
 

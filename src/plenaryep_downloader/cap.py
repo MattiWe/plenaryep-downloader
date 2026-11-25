@@ -19,79 +19,171 @@ generated = (Path(__file__).parents[2] / "generated").absolute()
 
 
 class CapClassifier(object):
-    def __init__(self, verbose: bool, server: str, token: str, api_checkpoint: str = "Qwen/Qwen3-8B") -> None:
+    def __init__(self, 
+                 verbose: bool, 
+                 server: str, 
+                 token: str, 
+                 rank: bool,
+                 api_checkpoint: str = "Qwen/Qwen3.5-27B") -> None:
         self.verbose = verbose
-        self.truncate = 10000
-        self.thresholds_file = data / "cap-thresholds.json"
-        self.thresholds = json.load(open(self.thresholds_file))
+        self.rank = rank
+        self.debate_dataset = {}
         self.cap = json.load(open(data / "cap.json"))
-        self.ranking_model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L6-v2", max_length=512)
+        if rank:
+            self.thresholds_file = data / "cap-thresholds.json"
+            self.thresholds = json.load(open(self.thresholds_file))
+            self.ranking_model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L6-v2", max_length=512)
         self.api_checkpoint = api_checkpoint
-        template_path = Path(__file__).parent / "templates/cap.jinja2"
-        self.template = Template(open(template_path, 'r').read())
+        template_path = Path(__file__).parent / "templates/"
+        self.template_titles_coarse = Template(open(template_path / "cap-titles-coarse.jinja2", 'r').read())
+        self.template_titles_detailed = Template(open(template_path / "cap-titles-detailed.jinja2", 'r').read())
+        self.template_multilabel = Template(open(template_path / "cap-multilabel.jinja2", 'r').read())
         self.client = OpenAI(
             base_url=f"{server}/v1",
             api_key=token,
         )
 
-    def _make_chat(self, 
-                   area: str, 
-                   topic: str, 
-                   description: str, 
-                   title: str, 
-                   text: str) -> list:
-        
-        content = self.template.render(
-            area=area,
-            topic=topic,
-            description=description,
-            title=title,
-            text=text)
+    def _cap_name(self, cap_ids: Iterable):
+        for cid in cap_ids:
+            if cid == "0":
+                continue 
+            if cid not in self.cap:
+                print(f"impossible code found: {cid}")
+                continue
+            name = f"{self.cap[cid]['area']}-{self.cap[cid]['topic']}"
+            yield name
 
+    def _classify_by_debate(self, speech: ep.Speech) -> Iterable[str]:
+        # If debate was classified, find its classes and return
+        if "cap" in self.debate_dataset[speech.debate_title]:
+            return self.debate_dataset[speech.debate_title]["cap"]
+        # otherwise, classify debate-level classes, add to debates, then return 
+
+        representative_speech = self.debate_dataset[speech.debate_title]
+        content = self.template_titles_coarse.render(
+            title=speech.debate_title,
+            speech="\n\n".join(representative_speech.paragraphs_en))
         messages = [{"role": "user", "content": content}]
-        return messages
-
-    def _classify(self, cap_id: str, text: str, title: str) -> bool:
-        messages = self._make_chat(
-            area=self.cap[cap_id]["area"],
-            topic=self.cap[cap_id]["topic"],
-            description=self.cap[cap_id]["description"],
-            title=title,
-            text=text,
-        )
                 
         completion = self.client.responses.create(
             model=self.api_checkpoint,
-            reasoning={"effort": "none"},
+            input=messages,
+            extra_body={
+                "chat_template_kwargs": {"enable_thinking": True},
+            },
+        )
+        output = completion.output_text.lower().strip(".")
+        prediction_coarse = [_.strip() for _ in output.split(',') if _.strip() in self.cap.keys()]
+
+        # given the previous predictions, make fine-granular classification
+        topics = [{"code": _id, **topic} for _id, topic in self.cap.items() 
+                if (str(int(_id[:-2]) * 100)) in prediction_coarse]
+
+        content = self.template_titles_detailed.render(
+            title=speech.debate_title,
+            speech="\n\n".join(representative_speech.paragraphs_en),
+            topics=topics)
+        messages = [{"role": "user", "content": content}]
+                
+        completion = self.client.responses.create(
+            model=self.api_checkpoint,
+            extra_body={
+                "chat_template_kwargs": {"enable_thinking": True}
+            },
             input=messages,)
-        return completion.output_text.lower().startswith("yes")
+        output = completion.output_text.lower().strip(".")
+        prediction_fine = [_.strip() for _ in output.split(',') if _.strip() in self.cap.keys()]
         
+        self.debate_dataset[speech.debate_title]["cap"] = prediction_fine
+        return prediction_fine
+
+    def _classify_by_multilabel(self, 
+                                speech: ep.Speech, 
+                                topics: Iterable|None = None) -> Iterable[str]:
+        if not topics:
+            topics = [{"code": _id, **topic} for _id, topic in self.cap.items()]
+        
+        content = self.template_multilabel.render(
+                title=speech.debate_title,
+                speech="\n\n".join(speech.paragraphs_en),
+                topics=topics)
+        messages = [{"role": "user", "content": content}]
+        completion = self.client.responses.create(
+            model=self.api_checkpoint,
+            extra_body={
+                "chat_template_kwargs": {"enable_thinking": True},
+            },
+            input=messages)
+        classes = completion.output_text.lower().strip(".")
+        classes = [_.strip() for _ in classes.split(',') if _.strip() in self.cap.keys()]
+
+        return classes
+    
+    def _classify_by_rank(self, speech: ep.Speech) -> Iterable[str]:
+        # Identify CAP IDs there the speech surpasses the threshold
+        rank_topics = []
+        for cid, _cap in self.cap.items():
+            query = f"{_cap["area"]} {_cap["topic"]} {_cap['description']}"
+
+            examples = [(query, _) for _ in speech.paragraphs_en]
+            _scores = self.ranking_model.predict(examples)
+
+            # if max pooled score > minimum threshold: classify
+            if max(_scores) > self.thresholds[cid]:
+                rank_topics.append(cid)
+        rank_topics = [{"code": _id, **topic} for _id, topic in self.cap.items() 
+                        if _id in rank_topics]
+        
+        if len(rank_topics) == 0:
+            return []
+        return self._classify_by_multilabel(speech, topics=rank_topics)
+    
     def __call__(self, report: ep.VerbatimReport) -> ep.VerbatimReport | None:
         # Determine if the report was already classified
-        for speech in tqdm(report.speeches, desc="speeches", total=len(report.speeches)):
-            if speech.cap_major or speech.cap_minor:
-                logger.info(f"Found cap classes for report {report.date}, skipping", 
+        for speech in report.speeches:
+            if speech.cap or speech.cap_debate:
+                logger.info(f"Found cap topics for report {report.date}, skipping", 
                             show=self.verbose)
                 return None
-                
-            for cap_id, _cap in self.cap.items():
-                query = f"{_cap["area"]} {_cap["topic"]} {_cap['description']}"
 
-                # ranking scores
-                examples = [(query, _) for _ in speech.paragraphs]
-                _scores = self.ranking_model.predict(examples)
+        # Make debate-title grouping
+        logger.info("Find debate titles to classify")
+        _debates = {}
+        self.debate_dataset = {}
+        for speech in report.speeches:
+            if speech.debate_type != ep.DebateType.DEBATE:
+                continue
+            _debates.setdefault(speech.debate_title, []).append(speech)
 
-                # if max pooled score > minimum threshold: classify
-                if max(_scores) > self.thresholds[cap_id][0]:
-                    if self._classify(cap_id=cap_id,
-                                      text=" ".join(speech.paragraphs),
-                                      title=str(speech.debate_title)):
-                        
-                        if max(_scores) > self.thresholds[cap_id][1]:
-                            speech.cap_major_ids.append(cap_id)
-                            speech.cap_major.append(f"{_cap["area"]}-{_cap["topic"]}")
-                        else:
-                            speech.cap_minor_ids.append(cap_id)
-                            speech.cap_minor.append(f"{_cap["area"]}-{_cap["topic"]}")
+        for title, debate in _debates.items():
+            if title in self.debate_dataset:
+                continue
+            for speech in debate:
+                if speech.speaker_type == "rapporteur":
+                    self.debate_dataset[title] = {"speech": "\n\n".join(speech.paragraphs_en)}
+                    break
+            else:
+                self.debate_dataset[title] = {"speech": "\n\n".join(debate[0].paragraphs_en)}
+
+        # Classify speeches
+        for speech in tqdm(report.speeches, desc="speeches", total=len(report.speeches)):
+            # Skip short or empty speeches
+            if len(speech.paragraphs_en) == 1 and len(speech.paragraphs_en[0]) < 100:
+                continue
+            if len(speech.paragraphs_en) == 0:
+                logger.fail(f"Empy paragraphs_en for speech {speech.id}")
+                continue
+
+            # decide if debate or not-debate and classify accordingly
+            if speech.debate_type == ep.DebateType.DEBATE:
+                _ids = self._classify_by_debate(speech)
+                speech.cap_debate_id = list(_ids)
+                speech.cap_debate = list(self._cap_name(_ids))
+            elif self.rank:
+                _ids = self._classify_by_rank(speech)
+            else:
+                _ids = self._classify_by_multilabel(speech)
+            speech.cap_id = list(_ids)
+            speech.cap = list(self._cap_name(_ids))
 
         return report

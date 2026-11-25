@@ -51,8 +51,9 @@ class Translator(object):
 
     def _translate_speeches(self, speech: ep.Speech) -> ep.Speech:
         if speech.source_lang == "en":
-            speech.translation = ep.Translation.SOURCE
-            logger.info(f"speech {speech.id} source language is english, but translation field is {speech.translation}. Set translation to {ep.Translation.SOURCE}", 
+            speech.paragraphs_en = speech.paragraphs
+            speech.translation = ep.TranslationType.SOURCE
+            logger.info(f"speech {speech.id} source language is english, but `paragraphs_en` is empty. Set `paragraphs` as the translation", 
                         show=self.verbose)
             return speech
         
@@ -65,6 +66,11 @@ class Translator(object):
             logger.info(f"Text language {source_lang} is not a known abbreviation, using detected language {detected_lang} insted.", 
                         show=self.verbose)
             source_lang = detected_lang
+
+        if source_lang == "en":
+            speech.paragraphs_en = speech.paragraphs
+            speech.translation = ep.TranslationType.SOURCE
+            return speech
         # Google Translate has a 5000 word cap per request. 
         # Concatenate paragraphs up to the limit to make as few requests as possible.
         try:   
@@ -72,7 +78,7 @@ class Translator(object):
             if sum(lengths) < 4950:
                 paragraphs = "\n\n".join(speech.paragraphs)
                 _translations = self._t(paragraphs, source_lang)
-                speech.paragraphs = _translations.split("\n\n")
+                speech.paragraphs_en = _translations.split("\n\n")
             else:
                 joined_paragraphs = [speech.paragraphs[0][:min(4998, len(speech.paragraphs[0]))]]
                 for _para, _len in zip(speech.paragraphs[1:], lengths[1:]):
@@ -83,9 +89,11 @@ class Translator(object):
                 _translations = []
                 for joined_paragraph in joined_paragraphs:
                     _translations.extend(self._t(joined_paragraph, source_lang).split("\n\n"))
-                speech.paragraphs = _translations
+                speech.paragraphs_en = _translations
 
-            speech.translation = ep.Translation.GOOGLE   
+            if any(paragraph.strip() for paragraph in speech.paragraphs_en):
+                speech.translation = ep.TranslationType.GOOGLE
+
         except ReadTimeout as e:
             logger.warn(f"Translation server ReadTimeout: {e}, skipping speeches ...")
         except ConnectionError as e:
@@ -96,16 +104,19 @@ class Translator(object):
     def __call__(self, report: ep.VerbatimReport) -> ep.VerbatimReport | None:
         translated = 0
         for speech in tqdm(report.speeches, desc="speeches", total=len(report.speeches)):
-            if speech.translation:
+            if speech.paragraphs_en:
                 continue
             try:
                 speech_transl = self._translate_speeches(speech)
-                speech = speech_transl
+                speech.paragraphs_en = speech_transl.paragraphs_en
+                if not any(paragraph.strip() for paragraph in speech.paragraphs_en):
+                    continue
+                speech.words = len((" ".join(speech_transl.paragraphs_en)).split(" "))
                 translated += 1
             except Exception as e:
                 logger.fail(f"Unexpected exception {e}. Translations are likely incomplete.")
                 traceback.print_stack()
-        if translated > 1:
+        if translated > 0:
             return report
         else:
             return None

@@ -56,3 +56,17 @@ CAP Topic are only added on demand to an existing corpus. The script checks on a
     ```
 
 This will determine the cap topics. It uses sentence-transformers locally for ranking and requests the api for classification. Reports where at least one speech was already classified will be skipped. Check `--help` for more options.
+
+## Citation 
+
+```
+@inproceedings{wiegmann-etal-2027-plenaryep,
+    title = "PlenaryEP: A Continuously Updated, Metadata-Rich Corpus of European Parliament Debates",
+    author = "Wiegmann, Matti and Neyer, J{\"u}rgen and Stein, Benno"
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EACL} 2027",
+    month = mar,
+    year = "2027",
+    address = "Athens, Greece",
+    publisher = "Association for Computational Linguistics"
+}
+```

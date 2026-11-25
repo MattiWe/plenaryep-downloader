@@ -1,0 +1,28 @@
+Classify the topic of the following title of a debate from the European Parliament. 
+
+**Title:** {{ title }}
+
+Rules for the classification:
+1. Select the one or multiple best matching topics. Use the below list of topic names and typical issues. 
+2. The opening speech of the debate is given to make a grounded decision. Focus on the central topics that dominate at least several sentences, not topics used in examples or as elaborations. Assign multiple topics if the central topics touch multiple areas, or if the speech touches multiple issues independently, for example in state of the union addresses. 
+3. Topics concerning EU countries count as domestic affairs. International affairs and foreign trade only concern non-EU countries. 
+4. Assign a "general" topic if mutliple topics of an area are mentioned without each dominating at least several sentences. Assign an "other" topic if a specific issue of that area is discussed but this issue has no matching class. 
+5. For relations between EU branches (Commission, Council, Parliament, etc) use 2011. For issues considering the EU asa group of nations, use 2001. For EU membership and expansion, use 1910. 
+6. Avoid redundancy, if multiple facest are already covered by one topic. For example, argiculture covers agricultural foreign trade, so foreign-trade is redundant. Foreign-trade covers international relations, and so on. 
+7. Only output the topic codes, separated by comma.
+
+
+### Topics
+
+{% for item in topics %}
+**Code:** {{ item.code }}
+**Area:** {{ item.area }}
+**Topic:** {{ item.topic }}
+**Issues:** {{ item.description }}
+{% endfor %}
+
+### Opening speech
+
+{{ speech }} 
+
+

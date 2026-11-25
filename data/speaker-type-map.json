@@ -89,7 +89,7 @@
     "au nom du groupe uen": "mep",
     "ecb": "guest",
     "auteur, reponse  carton bleu": "bluecard",
-    "rapp": "Rappoteur",
+    "rapp": "rapporteur",
     "vice-présidente de la commission": "commission",
     "chair libe": "rapporteur",
     "président du conseil européen": "council",
@@ -590,5 +590,6 @@
     "vice-president executive for the commission": "commission",
     "pt commission juri": "rapporteur",
     "prsidente de la commission econ": "rapporteur",
-    "emir de l'etat du qatar": "guest"
+    "emir de l'etat du qatar": "guest",
+    "ecrit": "ecrit"
 }

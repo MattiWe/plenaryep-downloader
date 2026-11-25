@@ -1,0 +1,105 @@
+Classify the topic of the following title of a debate from the European Parliament. 
+
+**Title:** {{ title }}
+
+Rules for the classification:
+1. Select the one or multiple best matching topics. Use the below list of topic names and typical issues. 
+2. The opening speech of the debate is given to make a grounded decision. Focus on the central topics of the debate. Assign multiple topics if the central topics touch multiple areas, or if the speech touches multiple issues independently, for example in state of the union addresses. 
+3. Topics concerning EU countries count as domestic affairs. International affairs and foreign trade only concern non-EU countries. 
+4. For EU membership and expansion, use 1900.
+5. Avoid redundancy, if multiple facets are already covered by one topic. For example, agriculture covers agricultural foreign trade, so foreign-trade is redundant. Foreign-trade covers international relations, and so on. 
+6. Only output the topic codes, separated by comma.
+
+
+### Topics
+
+**Topic:** macroeconomics
+**Code:** 100
+**Issues:** Inflation, cost of living, prices, and interest rates, unemployment, monetary policy, central bank, and the treasury, public debt, budgeting, and deficits, taxes, manufacturing and industrial policy and growth, wage or price control.
+
+**Topic:** civil-rights
+**Code:** 200
+**Issues:** Discrimination against minorities, gender, age, disabilities or others. Voting rights and participation issues, freedom of speech, expression, or religion, privacy rights, transparency, and and abortion rights, anti-government activity and insurgency groups.
+
+**Code:** 300
+**Topic:** health
+**Issues:** Health care system, health insurance, pharmaceuticals, medical devices, health care facilities, insurer regulation, medical liability, malpractice, fraud and abuse, labor in the health care industry, disease prevention and treatment, mental health care, long term care, drug regulation and drug abuse.
+
+**Code:** 400
+**Topic:** agriculture
+**Issues:** Agricultural foreign trade, government subsidies to farmers, food inspection and safety, agricultural marketing and consumers information, animal and crop disease, pest control, pesticide regulation, and animal welfare, fishing
+
+**Code:** 500
+**Topic:** labor
+**Issues:** Worker protection, job training, employee benefits, pensions, and retirement, labor unions, labor standards and law, youth employment and child labor, migrant, guest and seasonal workers.
+
+**Code:** 600
+**Topic:** education
+**Issues:** Education finance, regulation of all levels of education, school reform, safety in schools, adult, secondary, vocational education, education initiatives, special education for the disabled.
+
+**Code:** 700
+**Topic:** environment
+**Issues:** Air, water, noise pollution, water safety and wastewater, hazardous waste, climate change, resource conservation, species and forest protection. Renewable energy is excluded.
+
+**Code:** 800
+**Topic:** energy
+**Issues:** Nuclear energy and nuclear waste, general electricity and electrical utilities, natural gas, oil, coal, alternative and renewable energy, energy conservation.
+
+**Code:** 900
+**Topic:** immigration
+**Issues:** Includes issues related to immigration, refugees, and citizenship.
+
+**Code:** 1000
+**Topic:** transportation
+**Issues:** Mass transportation, public highways, air travel, railroads, maritime transportation, infrastructure and public works, including employment initiatives.
+
+**Code:** 1200
+**Topic:** law-and-crime
+**Issues:** All law enforcement agencies, border and customs enforcement, white collar crime, organized crime, counterfeiting and fraud, cyber-crime, and money laundering, drug crime, court administration, prisons and jails, juvenile crime, child abuse, domestic violence, family law, the control, prevention, and impact of crime, responses to terrorism.
+
+**Code:** 1300
+**Topic:** social-welfare
+**Issues:** poverty assistance, elderly assistance, government pensions, aid for people with physical or mental disabilities, volunteer associations, parental leave and child care.
+
+**Code:** 1400
+**Topic:** housing
+**Issues:** Housing and development, economic, infrastructure, and other developments in non-urban areas, public housing and housing affordability, housing for veterans, the elderly, and the homeless.
+
+**Code:** 1500
+**Topic:** domestic-commerce
+**Issues:** National banking regulation, regulation of securities and commodities trading, investments, consumer finance, mortgages, credit cards, and consumer credit fraud, insurance regulation and fraud, bankruptcies, antitrust regulation, corporate accounting and governance, small businesses, copyrights, patents and intellectual property, natural disaster relief, tourism, consumer fraud, sports, gambling, and personal fitness.
+
+**Code:** 1600
+**Topic:** defense
+**Issues:** Alliances, security assistance, and peacekeeping, military intelligence, readiness, manpower, procurement, installations, reserves, nuclear weapons, military environmental compliance, homeland security, civilian personnel, military contractors, war-related foreign military operations, claims against the military, military operations.
+
+**Code:** 1700
+**Topic:** technology
+**Issues:** Space programs, space resource exploitation, commercial use of space, science and technology transfer and international science cooperation, telephones and telecommunication regulation, the broadcast industry, weather forecasting, computer industry, the internet, and cyber security.
+
+**Code:** 1800
+**Topic:** foreign-trade
+**Issues:** Trade negotiations, export regulation, international private investment, domestic businesses, tariffs, exchange rate.
+
+**Code:** 1900
+**Topic:** international-affairs
+**Issues:** Foreign aid, international resources exploitation, developing countries, international finance and economic development, issues in foreign countries, human rights, international organizations and NGOs, international terrorism and piracy, diplomats and visas.
+
+**Code:** 2000
+**Topic:** government-operations
+**Issues:** "2000": Intergovernmental relations, government efficiencies and bureaucratic oversight, postal services, civil employee issues, the currency, government procurement, government property management, construction, and regulation, tax administration and enforcement, scandal and impeachment, government branch relations, constitutional reforms, regulation of political campaigns, census and statistics, the capital city, claims against the government, national holidays.
+
+**Code:** 2100
+**Topic:** public-lands
+**Issues:** Parks and recreation, indigenous affairs, natural resources and forest management, water resources and civil works, territorial and dependency issues and devolution.
+
+**Code:** 2300
+**Topic:** culture
+**Issues:** Includes issues related to general cultural policy issues.
+
+
+### Opening speech
+
+{{ speech }} 
+
+

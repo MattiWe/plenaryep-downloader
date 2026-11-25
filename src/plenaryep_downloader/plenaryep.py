@@ -122,8 +122,10 @@ def translate(input: str,
               help="Server with openAI-compatible API (vllm, olama, ...) as https://server.name:port")
 @click.option('--token', type=str, default="token-abc123",
               help="Authentication token for the server")
-@click.option('--api-checkpoint', type=str, default="Qwen/Qwen3-8B",
+@click.option('--api-checkpoint', type=str, default="Qwen/Qwen3.5-27B",
               help="Huggingface Checkpoint for the model used for the classification part")
+@click.option('--rank', is_flag=True, default=False,
+              help="Use the rank-then-classify over a full multilabel approach. Works better with most older/local models. Late 2026 frontier models or newer work better without.")
 @click.option('-v', '--verbose', is_flag=True, default=False)
 @click.argument('input', type=click.Path(exists=True, file_okay=True, dir_okay=False))
 @cli.command()
@@ -131,6 +133,7 @@ def cap(input: str,
         server: str, 
         token: str,
         api_checkpoint: str,
+        rank: bool,
         verbose: bool):    
     """ Add missing cap classifications to a given dataset.
 
@@ -139,7 +142,7 @@ def cap(input: str,
      - a LLM set via --api-checkpoint and requested using the openAI package to a given `server`
     """
     dataset = ep.load(input)
-    clf = CapClassifier(verbose, server, token, api_checkpoint)
+    clf = CapClassifier(verbose, server, token, rank, api_checkpoint)
     for report in tqdm(dataset, desc="reports", total=len(list(dataset))):
         classified_report = clf(report) 
         if not classified_report:
