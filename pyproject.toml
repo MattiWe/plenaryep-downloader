@@ -22,6 +22,7 @@ dependencies = [
     "translators>=6.0.4",
     "sentence-transformers>=5.7.0",
     "wasabi>=1.1.3",
+    "elasticsearch>=9.5.1",
 ]
 
 [project.scripts]
