@@ -1,14 +1,11 @@
 # from sentence_transformers import CrossEncoder
-import logging
 import json
 from pathlib import Path
-import random
-from typing import Any, Iterable
+from typing import Iterable
 
 from wasabi import msg as logger
 from openai import OpenAI
 from jinja2 import Template
-import numpy as np
 from tqdm.auto import tqdm
 from sentence_transformers import CrossEncoder
 

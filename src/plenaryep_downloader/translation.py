@@ -1,16 +1,11 @@
 from __future__ import annotations
 
-from pathlib import Path
-from typing import Any, Iterable, List, Iterator
 from tqdm.auto import tqdm 
-import json
-import re
-from collections import Counter
 import traceback
 
 from wasabi import msg as logger
 import translators as ts
-from requests.exceptions import HTTPError, ReadTimeout, ConnectionError
+from requests.exceptions import ReadTimeout, ConnectionError
 from resiliparse.parse.lang import detect_fast as d
 
 import plenaryep_downloader.reports as ep
